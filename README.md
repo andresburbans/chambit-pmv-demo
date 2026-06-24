@@ -1,284 +1,124 @@
-<div align="center">
+# Chambit
 
-# Chambit · Modelo de búsqueda geocontextual **HIVE 1**
+Chambit es una aplicación web para encontrar y contratar a la persona indicada cuando hace falta un servicio a domicilio, sea un plomero, un electricista, un cerrajero o un carpintero. Corre en el navegador y se instala en el teléfono como cualquier otra aplicación, sin pasar por una tienda. Por dentro es exigente, pero de cara al usuario hace una sola cosa: uno dice qué necesita y desde dónde, y recibe una lista corta de expertos cercanos, confiables y disponibles, ordenada por qué tan bien encaja cada uno con esa necesidad.
 
-**Repositorio complementario de tesis — Ingeniería Topográfica**
+Está en línea y operando en [chambit.co](https://chambit.co).
 
-*Demostración del fundamento matemático y de ingeniería del modelo de búsqueda
-geocontextual que ordena la oferta y la demanda de servicios presenciales en
-Santiago de Cali.*
+Lo difícil está en esa lista corta. Cuando hay decenas de candidatos repartidos por la ciudad, decidir quién va primero no es ordenar por distancia y ya. Hay que sopesar la cercanía contra la reputación, el precio contra el presupuesto y la urgencia contra la agenda, y hacerlo sin pedirle al usuario que entienda nada de eso. Ese motor de decisión es el centro del proyecto y se llama HIVE 1.
 
-🌐 **Prototipo desplegado:** **[chambit.co](https://chambit.co)**
+## De la tesis a la aplicación
 
-</div>
+Chambit no nació como una idea de negocio sino como un trabajo de grado en Ingeniería Topográfica. La pregunta que lo originó fue cómo diseñar un sistema de información geográfica que conecte de forma confiable la oferta y la demanda de servicios presenciales en Santiago de Cali, superando tres barreras concretas (la información dispersa, la desconfianza entre desconocidos y la fricción de la distancia).
 
-> [!NOTE]
-> **Metadatos de la tesis** *(por completar)*
-> **Título:** *…* · **Autor:** *…* · **Director(a):** *…*
-> **Programa:** Ingeniería Topográfica · **Universidad:** *…* · **Año:** 2026
+El punto de partida es una idea propia de la topografía. En los servicios que se prestan en persona la ubicación no es un atributo más del perfil, es una restricción del mundo físico. Un buen plomero al otro lado de la ciudad, sin cobertura en la zona, no sirve por muchas reseñas que tenga. Esa intuición, la misma que aplica cualquiera cuando busca a alguien "por el barrio", es la que el modelo vuelve matemática: la posición deja de ser un filtro accesorio y pasa a ser la variable que estructura toda la búsqueda.
 
----
+Este repositorio es la parte abierta de ese trabajo. No está la aplicación completa (la interfaz, la base de datos, las reglas de seguridad y la lógica de negocio se mantienen privadas), sino el núcleo del modelo: los fragmentos de código donde vive la lógica geográfica y estadística, con la explicación de por qué están hechos así. Sirve como anexo verificable de la tesis y como referencia para quien quiera entender o reutilizar el modelo.
 
-Este repositorio acompaña al documento de tesis y existe para **mostrar, de forma
-abierta y verificable, el núcleo del modelo** sin exponer la totalidad del código
-fuente de la plataforma. Reúne el enlace al prototipo funcional desplegado y una
-selección curada de los fragmentos algorítmicos que dan al modelo su fuerza
-matemática y disciplinar. La numeración de ecuaciones y figuras que se cita
-(ec. 16–21, etc.) corresponde al documento de tesis.
+## El modelo HIVE 1
 
-## Tabla de contenido
+HIVE 1 (de *Hyper-local Intelligent Vicinity Engine*) es el modelo de búsqueda geocontextual de la tesis, en su versión 1.0. El nombre viene de la colmena, una estructura hexagonal que es a la vez almacén, centro de información y sistema de exploración del territorio, las mismas funciones que el modelo ejerce sobre la rejilla hexagonal H3.
 
-1. [El producto: Chambit](#1-el-producto-chambit)
-2. [El modelo HIVE 1](#2-el-modelo-hive-1)
-3. [Fundamento matemático y de ingeniería topográfica](#3-fundamento-matemático-y-de-ingeniería-topográfica)
-4. [Validación experimental](#4-validación-experimental)
-5. [Alcance de este repositorio](#5-alcance-de-este-repositorio)
-6. [Reproducibilidad](#6-reproducibilidad)
-7. [Cómo citar](#7-cómo-citar)
-8. [Autoría y licencia](#8-autoría-y-licencia)
-
----
-
-## 1. El producto: Chambit
-
-Chambit es un **sistema de información geográfica servido como aplicación web
-progresiva (PWA)** que conecta a clientes con expertos de servicios presenciales
-(plomería, electricidad, cerrajería, carpintería, entre otros) bajo criterios
-simultáneos de **pertinencia temática, confianza y localización**. El sistema
-opera como un *decisor silencioso*: el usuario formula preguntas simples sobre
-qué necesita y dónde, y recibe tarjetas ordenadas por afinidad, sin manipular
-coordenadas, celdas, distribuciones ni pesos.
-
-**Cómo probarlo** — el prototipo está desplegado en **[chambit.co](https://chambit.co)**
-(versión 1.0). Los flujos **operativos y desplegados** son: registro y sesión
-persistente, inscripción georreferenciada, descubrimiento proximal, el asistente
-de exploración (**Buscar**) con el modelo HIVE 1, los resultados en **lista y
-mapa** con localización anonimizada por centroide de celda, el perfil de experto,
-y el ciclo de propuesta, negociación, cierre y calificación. El flujo de difusión
-de solicitudes (**Solicitar**) opera con despliegue parcial y la telemetría de
-ordenamiento se difirió de forma deliberada (ver §5).
-
-## 2. El modelo HIVE 1
-
-**HIVE 1** (*Hyper-local Intelligent Vicinity Engine*, versión 1.0) es el modelo
-de búsqueda geocontextual de la tesis. Su premisa, propia de la ingeniería
-topográfica, es que **en los servicios presenciales la posición no es un atributo
-accesorio sino una restricción del mundo físico** que condiciona la viabilidad de
-la conexión. La componente espacial se trata, por tanto, como variable
-*estructurante*, y se integra con señales alfanuméricas de reputación, precio,
-pertinencia temática y actividad.
-
-Su arquitectura es un **embudo de decisión por etapas**:
+Por dentro funciona como un embudo. En vez de evaluar el catálogo entero, descarta por etapas hasta quedarse con los pocos candidatos que importan.
 
 ```
-   Posición continua (WGS84)
-            │  discretización
-            ▼
-   ┌─────────────────────────┐
-   │ 1. Rejilla hexagonal H3 │  vecindad → recorte del universo de búsqueda
-   └─────────────────────────┘
-            ▼
-   ┌─────────────────────────┐
-   │ 2. Compuerta            │  cobertura + foco temático (descarta lo inviable)
-   └─────────────────────────┘
-            ▼
-   ┌─────────────────────────┐
-   │ 3. Puntuación multiseñal│  combinación lineal interpretable  S(p|q)  (ec. 16)
-   └─────────────────────────┘
-            ▼
-   ┌─────────────────────────┐
-   │ 4. Ordenamiento         │  combinación lineal HOY · LTR preparado (ec. 19–21)
-   └─────────────────────────┘
-            ▼
-   Lista y mapa para el usuario
+   Posición (WGS84)
+        │  se discretiza a la rejilla H3
+        ▼
+   1. Vecindad      recorta el universo a las celdas cercanas
+        ▼
+   2. Compuerta     descarta lo inviable (cobertura y tema)
+        ▼
+   3. Puntuación    ordena lo viable con varias señales   (ec. 16)
+        ▼
+   Lista y mapa
 ```
 
-La misma matemática de decisión sirve a los tres flujos (exploración del
-catálogo, oportunidades del experto y ordenamiento de propuestas): **un núcleo,
-varios flujos** (`scoreCandidate`, `scoreOpportunity`, `scoreProposal`).
+La misma matemática sirve a los tres flujos de la plataforma (la exploración del catálogo, las oportunidades que ve el experto y el orden de las propuestas que recibe el cliente), cambiando solo la fuente de candidatos. Un núcleo, varios flujos.
 
-## 3. Fundamento matemático y de ingeniería topográfica
+El resto de este documento recorre cómo está construido ese embudo: primero la indexación del territorio, luego la matemática del orden y, al final, cómo se validó.
 
-El núcleo (`geo-core`) es un **módulo puro**: sin dependencias de interfaz ni de
-infraestructura, determinista y verificable en frío. Esta sección enlaza cada
-pieza matemática con su fragmento de código en [`/algoritmo`](./algoritmo).
+## Cómo se ordena el territorio
 
-### 3.1 Discretización del territorio — rejilla hexagonal jerárquica H3
+La primera decisión, y la más de fondo, es pasar del espacio continuo de coordenadas al espacio discreto de la rejilla hexagonal jerárquica H3 (Sahr et al., 2003; Uber, 2018). En lugar de guardar la coordenada exacta de cada quien, el sistema guarda la celda hexagonal que la contiene. De esa única decisión salen cinco cosas a la vez: un índice de búsqueda (la cercanía se vuelve pertenencia a una celda), una métrica de distancia (contar celdas entre dos puntos), una unidad para agregar datos en el tablero, una manera de anonimizar la posición, y la isotropía del hexágono (sus seis vecinos quedan a la misma distancia, cosa que la cuadrícula no logra por culpa de sus diagonales).
 
-El tránsito del **espacio continuo de coordenadas** (WGS84) al **espacio
-discreto** de la rejilla hexagonal jerárquica H3 (Sahr et al., 2003; Uber, 2018)
-es la decisión fundacional del sistema. De una sola estructura derivan **cinco
-funciones** que en la literatura suelen aparecer disociadas: el **índice** de
-búsqueda (la proximidad se vuelve pertenencia indexable), la **métrica** de
-decisión (distancia entre celdas), la **unidad de agregación** del tablero
-geoanalítico, la **anonimización** posicional y la **isotropía** de las
-vecindades (los seis vecinos del hexágono equidistan, a diferencia de la rejilla
-cuadrada y sus diagonales).
+El sistema no guarda una sola celda sino una pirámide, la misma posición a varias resoluciones, cada una con su uso y su nivel de privacidad.
 
-**La pirámide de resoluciones.** La app no guarda una sola celda sino una
-*pirámide*: la misma posición indexada a varias resoluciones, cada una con un
-propósito y un nivel de privacidad.
-
-| Resolución | Arista aprox. | Uso | Privacidad |
+| Resolución | Arista aprox. | Para qué | Privacidad |
 | :--- | :--- | :--- | :--- |
-| **res7** | ≈ 1.2 km | Fallback / filtrado regional y búsqueda | Pública |
-| **res8** | ≈ 460 m | Matching anonimizado | Pública |
-| **res9** | ≈ 174 m | Cálculo fino de distancia y ranking | Pública |
-| **res12** | ≈ 9 m | Navegación precisa | **Privada** (jamás sale del documento privado) |
+| res7 | 1.2 km | Búsqueda y filtrado regional | Pública |
+| res8 | 460 m | Emparejamiento anonimizado | Pública |
+| res9 | 174 m | Distancia fina y ranking | Pública |
+| res12 | 9 m | Navegación precisa | Privada, no sale del documento privado |
 
-**La lógica de indexación.** (a) *Discretización* — `latLngToCell(lat, lng, res)`
-deriva la pirámide en cada evento geográfico (no se recicla: el usuario pudo
-moverse). (b) *Jerarquía* — `cellToParent` reconstruye la celda de búsqueda (res7)
-desde la de ranking (res9) sin re-geocodificar. (c) *Vecindad* —
-`gridDisk(celda, k)` recorta el universo a las celdas vecinas a la consulta
-**antes** de puntuar, de modo que el costo depende de la densidad local y no del
-tamaño del catálogo. (d) *Índice inverso de cobertura* — al publicar, un servicio
-precalcula las celdas res6 que su radio cubre (`coverageCells`), y el cliente las
-consulta con `array-contains`: una sola lectura indexada devuelve a todo experto
-cuya cobertura lo alcanza.
-📄 **Código:** [`algoritmo/indexacion-h3.ts`](./algoritmo/indexacion-h3.ts)
+Indexar tiene cuatro movimientos. Se discretiza el punto con `latLngToCell` en cada evento (no se recicla el índice del perfil, porque el usuario pudo moverse). Se sube por la jerarquía con `cellToParent` cuando hace falta la celda de búsqueda a partir de la de ranking, sin volver a geocodificar. Se expande la vecindad con `gridDisk` para mirar solo las celdas alrededor de la consulta antes de puntuar, de modo que el costo dependa de la densidad local y no del tamaño del catálogo. Y la cobertura se resuelve al revés: como un experto declara un radio variable (de un kilómetro a nacional), al publicar se precalculan las celdas que su radio cubre, y el cliente solo pregunta si la suya está entre ellas con una única lectura indexada. El código está en [`algoritmo/indexacion-h3.ts`](./algoritmo/indexacion-h3.ts).
 
-**Reversibilidad e interoperabilidad.** La discretización es deliberadamente *con
-pérdida* (el punto exacto se borra), pero la indexación es **reversible** en lo
-que importa: de la celda se recuperan su **centroide** (`cellToLatLng`, el pin del
-mapa) y su **polígono** (`cellToBoundary`, la huella del tablero geoanalítico).
-Esa reversibilidad es, además, la ruta de **interoperabilidad con la cartografía
-oficial**: el centroide está en WGS84 (EPSG:4326) y se transforma a
-**MAGNA-SIRGAS** (EPSG:4686) con los parámetros del IGAC; a la escala de las
-celdas publicadas el corrimiento de datum es sub-celda. Todo ello **sin almacenar
-ni exponer jamás la posición original**.
+Discretizar pierde el punto exacto a propósito, pero la indexación sigue siendo reversible en lo que cuenta. De la celda se recuperan su centroide (el punto que se dibuja en el mapa) y su polígono (lo que pinta el tablero), sin tocar nunca la posición original. Esa reversibilidad es además el puente hacia la cartografía oficial: el centroide está en WGS84 (EPSG:4326) y se puede llevar a MAGNA-SIRGAS (EPSG:4686) con los parámetros del IGAC, un corrimiento que a la escala de estas celdas queda por debajo del tamaño de la propia celda.
 
-### 3.2 Fricción espacial — decaimiento log-logístico · ec. (16)
+## La matemática del ordenamiento
 
-La fricción de la distancia se modela con un núcleo log-logístico de **cola
-pesada**, coherente con la Primera Ley de la Geografía (Tobler, 1970) y la teoría
-de accesibilidad (Geurs & van Wee, 2004):
+Una vez filtrados los candidatos viables, cada uno recibe un puntaje. No es una caja negra sino una suma ponderada de señales, donde cada término tiene su justificación y se puede auditar por separado (Malczewski & Rinner, 2015).
 
 $$
-f_{esp}(d) = \frac{1}{1 + (d/\alpha)^{\beta}}, \qquad f(0)=1,\; f(\alpha)=0.5,\; f(4\alpha)\approx 0.06
+S(p\mid q)= w_{1}f_{esp} + w_{2}f_{rep} - w_{3}f_{disp} + w_{4}f_{lex} + w_{5}f_{tem} + w_{6}f_{act} + w_{7}f_{fre} + w_{8}f_{eco} + w_{9}f_{cal}
 $$
 
-La cola pesada mantiene competitivos a los candidatos lejanos cuyas demás señales
-compensan la distancia. 📄 **Código:** [`algoritmo/friccion-espacial.ts`](./algoritmo/friccion-espacial.ts)
+La señal de más peso es la distancia, modelada con un decaimiento log-logístico de cola pesada, fiel a la fricción urbana y a la primera ley de la geografía de Tobler (1970). La cola pesada deja competir a un candidato lejano si lo demás lo respalda, cosa que un decaimiento gaussiano cortaría en seco. El código está en [`friccion-espacial.ts`](./algoritmo/friccion-espacial.ts).
 
-### 3.3 Reputación bayesiana — posterior Dirichlet–multinomial · ec. (17)
+$$
+f_{esp}(d) = \frac{1}{1 + (d/\alpha)^{\beta}}
+$$
 
-La reputación se trata como **distribución y no como promedio**. Con los conteos
-ordinales por estrella $\mathbf{n}$ y un prior de Dirichlet $\boldsymbol{\alpha}$,
-el posterior es $\text{Dir}(\boldsymbol{\alpha}+\mathbf{n})$, del que se derivan
-en forma cerrada la calificación esperada y su varianza (Jøsang & Haller, 2007):
+La reputación no es el promedio de estrellas sino una distribución. Con los conteos por estrella y un previo de Dirichlet, el posterior entrega la calificación esperada y su varianza en forma cerrada (Jøsang & Haller, 2007), y esa varianza penaliza a quien tiene notas polarizadas aunque su promedio sea alto. Quien no tiene historial aparece como "Nuevo" y su nota converge a la del mercado a medida que llega evidencia, sin certezas prematuras. El código está en [`reputacion-dirichlet.ts`](./algoritmo/reputacion-dirichlet.ts).
 
 $$
 \mathbb{E}[R_p]=\sum_{k} k\cdot\frac{n_k+\alpha_k}{N+\alpha_0}, \qquad
 \text{Var}[R_p]=\sum_{k} k^2\cdot\frac{n_k+\alpha_k}{N+\alpha_0}-\mathbb{E}[R_p]^2
 $$
 
-La esperanza alimenta la señal de reputación; la varianza **separa el nivel del
-riesgo** (penaliza a quien tiene notas polarizadas aunque su media sea alta). El
-arranque en frío se resuelve con una cadena de priors con retroceso jerárquico y
-la presentación honesta como «Nuevo» del candidato sin evidencia.
-📄 **Código:** [`algoritmo/reputacion-dirichlet.ts`](./algoritmo/reputacion-dirichlet.ts)
+La escala $\alpha$ de la distancia no es un número fijo puesto a mano. Se aprende del comportamiento real: cada emparejamiento aceptado o rechazado a una distancia dada es un dato, y ajustar la curva equivale a una regresión logística sobre el logaritmo de la distancia, resuelta por máxima verosimilitud. Con pocos datos el modelo se encoge hacia un valor global, así que arranca exactamente en su comportamiento de diseño ($\alpha = 2.5$ km, $\beta = 2$) y mejora a medida que hay evidencia. El código está en [`kernel-movilidad.ts`](./algoritmo/kernel-movilidad.ts).
 
-### 3.4 Escala espacial aprendida — kernel de movilidad · ec. (18)
+Hay un detalle de diseño que vale la pena señalar. La urgencia no suma un término al puntaje, cambia el perfil de pesos. Una necesidad urgente sube el peso de la distancia (de 0.28 a 0.35) y baja el de la reputación y el precio, porque la urgencia no altera los hechos del candidato sino la importancia relativa de cada hecho. Y por cada candidato que evalúa, el modelo guarda un vector de catorce características que una etapa futura de aprendizaje de ordenamiento podrá consumir sin rehacer nada. El código está en [`puntuacion.ts`](./algoritmo/puntuacion.ts).
 
-La escala $\alpha$ del decaimiento **deja de ser un supuesto** y se estima del
-comportamiento real: cada emparejamiento a distancia $d$ (aceptado o no) es una
-observación, y ajustar la log-logística equivale a una **regresión logística
-sobre $\ln d$**:
+## Cómo se puso a prueba
 
-$$
-\text{logit}\,P(y=1\mid d) = \beta\ln\alpha - \beta\ln d
-$$
-
-Se resuelve por máxima verosimilitud (Newton–Raphson / IRLS, sin librerías) con
-**contracción jerárquica** hacia el global cuando la muestra es escasa: con cero
-datos el modelo degrada *exactamente* al comportamiento de diseño ($\alpha=2.5$
-km, $\beta=2$) y mejora de forma monótona con la evidencia.
-📄 **Código:** [`algoritmo/kernel-movilidad.ts`](./algoritmo/kernel-movilidad.ts)
-
-### 3.5 Puntuación multiseñal — combinación lineal interpretable · ec. (16) / (19)
-
-Sobre los candidatos factibles se evalúa una combinación lineal ponderada con
-tratamiento explícito de la incertidumbre por término (Malczewski & Rinner, 2015):
-
-$$
-S(p\mid q)= w_{1}f_{esp} + w_{2}f_{rep} - w_{3}f_{disp} + w_{4}f_{lex} + w_{5}f_{tem} + w_{6}f_{act} + w_{7}f_{fre} + w_{8}f_{eco} + w_{9}f_{cal}
-$$
-
-La **urgencia no es un término aditivo sino un selector del perfil de pesos**: una
-necesidad urgente eleva el peso de la distancia (de 0.28 a 0.35) y relaja la
-reputación y el precio. Cada posición del orden es **descomponible señal por
-señal** (interpretabilidad por construcción), y por cada candidato se materializa
-el vector de características $\Phi(q,p)\in\mathbb{R}^{14}$ que una futura etapa de
-aprendizaje de ordenamiento (LambdaMART, ec. 19–21) consumirá sin rediseñar la
-captura. 📄 **Código:** [`algoritmo/puntuacion.ts`](./algoritmo/puntuacion.ts)
-
-## 4. Validación experimental
-
-El modelo se validó sobre un **escenario sintético reproducible de Cali**
-(semilla fija, ejecutando la librería real, sin reimplementarla), además de una
-verificación formal de 64 propiedades en 9 familias. Métricas de cabecera
-(Tabla 6 de la tesis):
+Como la plataforma todavía no tiene tráfico real, el modelo se validó sobre un escenario sintético y reproducible de Cali, ejecutando la misma librería que corre en la app (no una reimplementación) con una semilla fija, y se le verificaron sesenta y cuatro propiedades formales en frío. Los números de cabecera son estos.
 
 | Métrica | Resultado | Detalle |
 | :--- | :--- | :--- |
-| Candidato dominante en 1.ª posición (corrección) | **100 %** | 200 / 200 consultas |
-| Candidato dominante en 1.ª posición (robustez) | **97.8 %** | 1174 / 1200 · 30 semillas · densidad doble |
-| Divergencia del 1.er resultado vs. distancia pura | **46.1 %** | IC95 ±3.3 · 30 semillas |
-| Correlación de rangos con la sola distancia | **0.77** | IC95 ±0.004 |
-| Señal más estructurante (ablación) | **Distancia** | importancia 0.31 · reordena el 1.º en el 85.8 % |
-| Señales con contribución no nula (ablación) | **7 / 7** | ninguna es peso muerto |
-| Candidatos examinados (catálogo 200 → 20 000) | **≈ 160** | constante · < 0.5 ms por consulta |
+| Candidato correcto en primer lugar | 100 % | 200 de 200 consultas |
+| Lo mismo, bajo 30 poblaciones distintas | 97.8 % | 1174 de 1200 consultas |
+| Cuánto cambia el primer resultado frente a ordenar por sola distancia | 46.1 % | IC95 ±3.3 |
+| Correlación con la sola distancia | 0.77 | sensible a la cercanía, sin reducirse a ella |
+| Señal más decisiva (ablación) | Distancia | aproximadamente un orden de magnitud sobre las demás |
+| Candidatos revisados al pasar de 200 a 20 000 expertos | ~160 | constante, menos de 0.5 ms por consulta |
 
-La distancia domina **aproximadamente un orden de magnitud** por encima de
-cualquier señal alfanumérica, confirmando la hipótesis geocontextual; el resto de
-señales aporta la discriminación fina entre candidatos espacialmente comparables.
+En corto: el modelo recupera la respuesta correcta, mejora de forma clara y estable el viejo "ordenar por cercanía", reparte la decisión entre todas sus señales con la distancia al frente, y su costo no crece con el catálogo sino con la densidad local.
 
-## 5. Alcance de este repositorio
+## Qué hay en este repositorio
 
-> [!IMPORTANT]
-> Este repositorio **no contiene el código fuente completo** de Chambit. Es una
-> selección curada con fines académicos y de divulgación.
+En [`algoritmo/`](./algoritmo) están los fragmentos puros del núcleo, cada uno atado a su ecuación en la tesis.
 
-**Qué incluye** — los fragmentos del **núcleo matemático puro** (`geo-core`): la
-indexación H3 y su reversibilidad, la fricción espacial, la reputación Dirichlet,
-el kernel de movilidad aprendido y la función de puntuación multiseñal, en
-[`/algoritmo`](./algoritmo).
+- [`indexacion-h3.ts`](./algoritmo/indexacion-h3.ts), la pirámide H3, la indexación, la vecindad y la reversibilidad.
+- [`friccion-espacial.ts`](./algoritmo/friccion-espacial.ts), la fricción de la distancia (ec. 16).
+- [`reputacion-dirichlet.ts`](./algoritmo/reputacion-dirichlet.ts), la reputación bayesiana (ec. 17).
+- [`kernel-movilidad.ts`](./algoritmo/kernel-movilidad.ts), la escala espacial aprendida (ec. 18).
+- [`puntuacion.ts`](./algoritmo/puntuacion.ts), la combinación de señales y el vector de características (ec. 16 y 19).
 
-**Qué no incluye, y por qué** — la aplicación PWA, el modelo de datos, las reglas
-de seguridad, la autenticación, la capa de persistencia y la lógica de negocio se
-mantienen privados por motivos de **seguridad, privacidad de los usuarios y
-propiedad intelectual**. Los fragmentos publicados son funciones puras que
-ilustran la matemática sin revelar la infraestructura ni datos reales.
+Son funciones puras y deterministas: con las mismas entradas dan siempre la misma salida, sin estado externo ni red. Lo que no está, y es a propósito, es el resto de la aplicación (interfaz, datos, autenticación, seguridad), por privacidad de los usuarios y por tratarse de un producto en operación.
 
-## 6. Reproducibilidad
+## Autoría y cómo citar
 
-Los fragmentos de [`/algoritmo`](./algoritmo) son **TypeScript puro y
-determinista**: dadas las mismas entradas devuelven siempre el mismo resultado,
-sin estado externo ni acceso a red. La validación de la tesis se ejecutó con un
-**generador pseudoaleatorio de semilla fija** sobre esta misma librería, de modo
-que lo medido es el comportamiento real del modelo y no una aproximación.
-
-## 7. Cómo citar
+Trabajo de grado en Ingeniería Topográfica, *[universidad]*, 2026. Autor: *[nombre]*. Director(a): *[nombre]*. Prototipo en [chambit.co](https://chambit.co).
 
 ```bibtex
 @thesis{chambit_hive1_2026,
   author = {Apellido, Nombre},
-  title  = {{Título de la tesis}},
+  title  = {Título de la tesis},
   school = {Universidad},
   year   = {2026},
   type   = {Trabajo de grado de Ingeniería Topográfica},
-  note   = {Prototipo: https://chambit.co · Código: https://github.com/andresburbans/chambit-pmv-demo}
+  note   = {Prototipo: https://chambit.co, código: https://github.com/andresburbans/chambit-pmv-demo}
 }
 ```
 
-## 8. Autoría y licencia
-
-Autoría del modelo HIVE 1, su implementación y este material: **[autor de la
-tesis]**, 2026. El contenido se publica con fines académicos. Salvo indicación en
-contrario, los fragmentos de código se ofrecen para **lectura y verificación
-académica**; consúltese al autor para cualquier uso o redistribución.
-
-<div align="center">
-<sub>Ingeniería Topográfica · Santiago de Cali · 2026</sub>
-</div>
+El material se comparte con fines académicos. Para cualquier uso o redistribución, conviene escribir al autor.
