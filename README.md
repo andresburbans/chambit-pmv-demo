@@ -105,15 +105,48 @@ pieza matemática con su fragmento de código en [`/algoritmo`](./algoritmo).
 
 ### 3.1 Discretización del territorio — rejilla hexagonal jerárquica H3
 
-El tránsito del **espacio continuo de coordenadas** al **espacio discreto** de la
-rejilla hexagonal jerárquica H3 (Uber, 2018) es la decisión fundacional. De ella
-derivan, a la vez, cinco funciones que en la literatura suelen aparecer
-disociadas: la **eficiencia** de la consulta (la proximidad se vuelve pertenencia
-indexable), la **isotropía** de las vecindades, la **métrica** de decisión, la
-**unidad de agregación** territorial y la **anonimización posicional por capas**.
-La posición se opera siempre sobre la celda y su centroide, **nunca sobre la
-coordenada exacta**: la privacidad posicional es una propiedad de la estructura
-del dato y no de una política de acceso.
+El tránsito del **espacio continuo de coordenadas** (WGS84) al **espacio
+discreto** de la rejilla hexagonal jerárquica H3 (Sahr et al., 2003; Uber, 2018)
+es la decisión fundacional del sistema. De una sola estructura derivan **cinco
+funciones** que en la literatura suelen aparecer disociadas: el **índice** de
+búsqueda (la proximidad se vuelve pertenencia indexable), la **métrica** de
+decisión (distancia entre celdas), la **unidad de agregación** del tablero
+geoanalítico, la **anonimización** posicional y la **isotropía** de las
+vecindades (los seis vecinos del hexágono equidistan, a diferencia de la rejilla
+cuadrada y sus diagonales).
+
+**La pirámide de resoluciones.** La app no guarda una sola celda sino una
+*pirámide*: la misma posición indexada a varias resoluciones, cada una con un
+propósito y un nivel de privacidad.
+
+| Resolución | Arista aprox. | Uso | Privacidad |
+| :--- | :--- | :--- | :--- |
+| **res7** | ≈ 1.2 km | Fallback / filtrado regional y búsqueda | Pública |
+| **res8** | ≈ 460 m | Matching anonimizado | Pública |
+| **res9** | ≈ 174 m | Cálculo fino de distancia y ranking | Pública |
+| **res12** | ≈ 9 m | Navegación precisa | **Privada** (jamás sale del documento privado) |
+
+**La lógica de indexación.** (a) *Discretización* — `latLngToCell(lat, lng, res)`
+deriva la pirámide en cada evento geográfico (no se recicla: el usuario pudo
+moverse). (b) *Jerarquía* — `cellToParent` reconstruye la celda de búsqueda (res7)
+desde la de ranking (res9) sin re-geocodificar. (c) *Vecindad* —
+`gridDisk(celda, k)` recorta el universo a las celdas vecinas a la consulta
+**antes** de puntuar, de modo que el costo depende de la densidad local y no del
+tamaño del catálogo. (d) *Índice inverso de cobertura* — al publicar, un servicio
+precalcula las celdas res6 que su radio cubre (`coverageCells`), y el cliente las
+consulta con `array-contains`: una sola lectura indexada devuelve a todo experto
+cuya cobertura lo alcanza.
+📄 **Código:** [`algoritmo/indexacion-h3.ts`](./algoritmo/indexacion-h3.ts)
+
+**Reversibilidad e interoperabilidad.** La discretización es deliberadamente *con
+pérdida* (el punto exacto se borra), pero la indexación es **reversible** en lo
+que importa: de la celda se recuperan su **centroide** (`cellToLatLng`, el pin del
+mapa) y su **polígono** (`cellToBoundary`, la huella del tablero geoanalítico).
+Esa reversibilidad es, además, la ruta de **interoperabilidad con la cartografía
+oficial**: el centroide está en WGS84 (EPSG:4326) y se transforma a
+**MAGNA-SIRGAS** (EPSG:4686) con los parámetros del IGAC; a la escala de las
+celdas publicadas el corrimiento de datum es sub-celda. Todo ello **sin almacenar
+ni exponer jamás la posición original**.
 
 ### 3.2 Fricción espacial — decaimiento log-logístico · ec. (16)
 
@@ -207,9 +240,10 @@ señales aporta la discriminación fina entre candidatos espacialmente comparabl
 > Este repositorio **no contiene el código fuente completo** de Chambit. Es una
 > selección curada con fines académicos y de divulgación.
 
-**Qué incluye** — los fragmentos del **núcleo matemático puro** (`geo-core`):
-fricción espacial, reputación Dirichlet, kernel de movilidad aprendido y la
-función de puntuación multiseñal, en [`/algoritmo`](./algoritmo).
+**Qué incluye** — los fragmentos del **núcleo matemático puro** (`geo-core`): la
+indexación H3 y su reversibilidad, la fricción espacial, la reputación Dirichlet,
+el kernel de movilidad aprendido y la función de puntuación multiseñal, en
+[`/algoritmo`](./algoritmo).
 
 **Qué no incluye, y por qué** — la aplicación PWA, el modelo de datos, las reglas
 de seguridad, la autenticación, la capa de persistencia y la lógica de negocio se
