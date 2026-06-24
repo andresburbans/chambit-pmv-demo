@@ -4,6 +4,10 @@ dist/
 out/
 *.tsbuildinfo
 
+# Python
+__pycache__/
+*.pyc
+
 # Entorno
 .env
 .env.*

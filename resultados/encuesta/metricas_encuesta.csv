@@ -1,0 +1,15 @@
+bloque,item,escala,valor
+Disposicion,Dispuestos a usar una app para contratar expertos,porcentaje,99
+Prioridad del cliente,Verificacion de identidad,1 a 5,4.0
+Prioridad del cliente,Seguridad en la prestacion,1 a 5,3.8
+Prioridad del cliente,Filtros de busqueda,1 a 5,3.6
+Prioridad del cliente,Afinidad geografica,1 a 5,3.5
+Prioridad del cliente,Deteccion de ubicacion,1 a 5,3.3
+Prioridad del cliente,Visualizacion en mapa,1 a 5,3.3
+Prioridad del experto,Verificacion del cliente,1 a 5,4.0
+Prioridad del experto,Reputacion,1 a 5,4.0
+Prioridad del experto,Distancia y disponibilidad,1 a 5,3.8
+Prioridad del experto,Cobertura,1 a 5,3.6
+Frustracion del cliente,Incertidumbre sobre la seguridad del prestador,1 a 4,2.9
+Frustracion del cliente,Tiempo perdido averiguando precios y disponibilidad,1 a 4,2.8
+Frustracion del cliente,Dificultad de encontrar a alguien cercano,1 a 4,2.2

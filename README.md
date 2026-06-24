@@ -94,6 +94,8 @@ Como la plataforma todavía no tiene tráfico real, el modelo se validó sobre u
 
 En corto: el modelo recupera la respuesta correcta, mejora de forma clara y estable el viejo "ordenar por cercanía", reparte la decisión entre todas sus señales con la distancia al frente, y su costo no crece con el catálogo sino con la densidad local.
 
+Los datos y el código que producen estas cifras (la población sintética, las métricas crudas que salen del modelo y los agregados de la encuesta) están en [`resultados/`](./resultados), con las instrucciones para regenerar cada figura.
+
 ## Qué hay en este repositorio
 
 En [`algoritmo/`](./algoritmo) están los fragmentos puros del núcleo, cada uno atado a su ecuación en la tesis.
@@ -105,6 +107,8 @@ En [`algoritmo/`](./algoritmo) están los fragmentos puros del núcleo, cada uno
 - [`puntuacion.ts`](./algoritmo/puntuacion.ts), la combinación de señales y el vector de características (ec. 16 y 19).
 
 Son funciones puras y deterministas: con las mismas entradas dan siempre la misma salida, sin estado externo ni red. Lo que no está, y es a propósito, es el resto de la aplicación (interfaz, datos, autenticación, seguridad), por privacidad de los usuarios y por tratarse de un producto en operación.
+
+En [`resultados/`](./resultados) están los datos y el código Python que generan las figuras de la sección 7 (la población sintética, las métricas que salen del modelo y los agregados de la encuesta). De la encuesta solo se publican los promedios; las respuestas individuales se quedan fuera por privacidad.
 
 ## Autoría y cómo citar
 

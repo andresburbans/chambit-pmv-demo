@@ -1,0 +1,588 @@
+{
+  "meta": {
+    "center": {
+      "lat": 3.4516,
+      "lng": -76.532
+    },
+    "res": 8,
+    "kernelAlphaKm": 2.5,
+    "kernelBeta": 2,
+    "seed": "chambit-synth-2026",
+    "generatedAt": "2026-06-23T12:28:50.091Z"
+  },
+  "exp1_correctness": {
+    "plantedRankMean": 1,
+    "plantedTop1Pct": 100,
+    "afterMoveAwayMean": 0,
+    "afterEmptyRepMean": 1.1,
+    "afterOverPriceMean": 1.18,
+    "queries": 200
+  },
+  "exp2_comparison": {
+    "queries": 80,
+    "topDifferPct": 52.5,
+    "spearmanMean": 0.76,
+    "nearestHiveRankHist": [
+      38,
+      16,
+      15,
+      5,
+      3,
+      3
+    ],
+    "case": {
+      "budget": 70000,
+      "rows": [
+        {
+          "id": "e903201",
+          "distanceKm": 1.6,
+          "eR": 3.73,
+          "fPrice": 0.88,
+          "score": 0.5666,
+          "hiveRank": 1,
+          "distRank": 4
+        },
+        {
+          "id": "e903208",
+          "distanceKm": 0.8,
+          "eR": 3.43,
+          "fPrice": 0.19,
+          "score": 0.5286,
+          "hiveRank": 2,
+          "distRank": 1
+        },
+        {
+          "id": "e903093",
+          "distanceKm": 1.6,
+          "eR": 3.43,
+          "fPrice": 0.85,
+          "score": 0.4717,
+          "hiveRank": 3,
+          "distRank": 2
+        },
+        {
+          "id": "e903156",
+          "distanceKm": 2.39,
+          "eR": 3.73,
+          "fPrice": 0.89,
+          "score": 0.4665,
+          "hiveRank": 4,
+          "distRank": 6
+        },
+        {
+          "id": "e903177",
+          "distanceKm": 2.39,
+          "eR": 4,
+          "fPrice": 0,
+          "score": 0.4465,
+          "hiveRank": 5,
+          "distRank": 7
+        },
+        {
+          "id": "e903070",
+          "distanceKm": 2.39,
+          "eR": 3.73,
+          "fPrice": 0.74,
+          "score": 0.4394,
+          "hiveRank": 6,
+          "distRank": 5
+        },
+        {
+          "id": "e903062",
+          "distanceKm": 3.19,
+          "eR": 3.56,
+          "fPrice": 0.84,
+          "score": 0.4354,
+          "hiveRank": 7,
+          "distRank": 9
+        },
+        {
+          "id": "e903213",
+          "distanceKm": 3.19,
+          "eR": 3.87,
+          "fPrice": 0.3,
+          "score": 0.427,
+          "hiveRank": 8,
+          "distRank": 14
+        }
+      ]
+    }
+  },
+  "exp3_behavior": {
+    "coldStart": {
+      "n": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        8,
+        12,
+        18,
+        25,
+        40,
+        60,
+        90
+      ],
+      "eR": [
+        3.429,
+        3.625,
+        3.667,
+        3.8,
+        3.917,
+        4.071,
+        4.105,
+        4.16,
+        4.152,
+        4.277,
+        4.328,
+        4.337
+      ],
+      "trueMean": 4.43,
+      "priorMean": 3.429
+    },
+    "density": {
+      "supply": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        12,
+        18,
+        25,
+        35,
+        50
+      ],
+      "alphaEff": [
+        4.5,
+        4.5,
+        4.5,
+        3.873,
+        3.062,
+        2.5,
+        2.041,
+        1.75,
+        1.75,
+        1.75
+      ],
+      "baseAlpha": 2.5,
+      "refSupply": 12
+    },
+    "urgency": [
+      {
+        "id": "u6",
+        "distanceKm": 2.39,
+        "eR": 3.93,
+        "rankScheduled": 1,
+        "rankUrgent": 1
+      },
+      {
+        "id": "u8",
+        "distanceKm": 3.19,
+        "eR": 4.07,
+        "rankScheduled": 2,
+        "rankUrgent": 2
+      },
+      {
+        "id": "u2",
+        "distanceKm": 3.19,
+        "eR": 4.13,
+        "rankScheduled": 3,
+        "rankUrgent": 4
+      },
+      {
+        "id": "u7",
+        "distanceKm": 1.6,
+        "eR": 3.63,
+        "rankScheduled": 4,
+        "rankUrgent": 3
+      },
+      {
+        "id": "u1",
+        "distanceKm": 2.39,
+        "eR": 3.93,
+        "rankScheduled": 5,
+        "rankUrgent": 5
+      },
+      {
+        "id": "u4",
+        "distanceKm": 2.39,
+        "eR": 3.93,
+        "rankScheduled": 6,
+        "rankUrgent": 6
+      },
+      {
+        "id": "u0",
+        "distanceKm": 4.79,
+        "eR": 3.5,
+        "rankScheduled": 7,
+        "rankUrgent": 7
+      },
+      {
+        "id": "u9",
+        "distanceKm": 3.19,
+        "eR": 3.43,
+        "rankScheduled": 8,
+        "rankUrgent": 8
+      },
+      {
+        "id": "u10",
+        "distanceKm": 6.38,
+        "eR": 3.73,
+        "rankScheduled": 9,
+        "rankUrgent": 9
+      },
+      {
+        "id": "u3",
+        "distanceKm": 5.59,
+        "eR": 3.93,
+        "rankScheduled": 10,
+        "rankUrgent": 10
+      },
+      {
+        "id": "u5",
+        "distanceKm": 6.38,
+        "eR": 4.15,
+        "rankScheduled": 11,
+        "rankUrgent": 11
+      },
+      {
+        "id": "u11",
+        "distanceKm": 4.79,
+        "eR": 3.43,
+        "rankScheduled": 12,
+        "rankUrgent": 12
+      }
+    ],
+    "weights": {
+      "scheduled": {
+        "distance": 0.28,
+        "expectedRating": 0.23,
+        "price": 0.16
+      },
+      "urgent": {
+        "distance": 0.35,
+        "expectedRating": 0.2,
+        "price": 0.14
+      }
+    }
+  },
+  "exp4_scaling": {
+    "ringK": 6,
+    "rows": [
+      {
+        "N": 200,
+        "examinedNeighborhood": 158,
+        "passedNeighborhood": 19,
+        "examinedBrute": 200,
+        "timeNeighborhoodMs": 0.39,
+        "timeBruteMs": 0.38
+      },
+      {
+        "N": 500,
+        "examinedNeighborhood": 168,
+        "passedNeighborhood": 24,
+        "examinedBrute": 500,
+        "timeNeighborhoodMs": 0.3,
+        "timeBruteMs": 0.94
+      },
+      {
+        "N": 1500,
+        "examinedNeighborhood": 171,
+        "passedNeighborhood": 30,
+        "examinedBrute": 1500,
+        "timeNeighborhoodMs": 0.4,
+        "timeBruteMs": 3.14
+      },
+      {
+        "N": 4000,
+        "examinedNeighborhood": 152,
+        "passedNeighborhood": 30,
+        "examinedBrute": 4000,
+        "timeNeighborhoodMs": 0.26,
+        "timeBruteMs": 6.39
+      },
+      {
+        "N": 10000,
+        "examinedNeighborhood": 158,
+        "passedNeighborhood": 20,
+        "examinedBrute": 10000,
+        "timeNeighborhoodMs": 0.21,
+        "timeBruteMs": 12.95
+      },
+      {
+        "N": 20000,
+        "examinedNeighborhood": 157,
+        "passedNeighborhood": 31,
+        "examinedBrute": 20000,
+        "timeNeighborhoodMs": 0.28,
+        "timeBruteMs": 27.13
+      }
+    ]
+  },
+  "exp5_robustness": {
+    "seeds": 30,
+    "queriesPerSeed": 40,
+    "expertsPerQuery": 260,
+    "plantedTop1": {
+      "hits": 1174,
+      "total": 1200,
+      "pct": 97.83
+    },
+    "topDifferPct": {
+      "mean": 46.083,
+      "sd": 9.137,
+      "min": 25,
+      "max": 65,
+      "ci95": 3.27,
+      "n": 30
+    },
+    "spearman": {
+      "mean": 0.771,
+      "sd": 0.011,
+      "min": 0.746,
+      "max": 0.799,
+      "ci95": 0.004,
+      "n": 30
+    },
+    "perSeedTopDiffer": [
+      50,
+      25,
+      47.5,
+      35,
+      52.5,
+      37.5,
+      50,
+      47.5,
+      35,
+      45,
+      42.5,
+      37.5,
+      37.5,
+      42.5,
+      45,
+      52.5,
+      45,
+      40,
+      35,
+      40,
+      65,
+      47.5,
+      57.5,
+      52.5,
+      52.5,
+      57.5,
+      52.5,
+      62.5,
+      55,
+      37.5
+    ],
+    "perSeedSpearman": [
+      0.7749,
+      0.7679,
+      0.7771,
+      0.764,
+      0.7637,
+      0.7815,
+      0.7708,
+      0.7753,
+      0.7738,
+      0.772,
+      0.7628,
+      0.7808,
+      0.7686,
+      0.7686,
+      0.7994,
+      0.7731,
+      0.7463,
+      0.7722,
+      0.7858,
+      0.7879,
+      0.7723,
+      0.7734,
+      0.7733,
+      0.7805,
+      0.7475,
+      0.7701,
+      0.7574,
+      0.7702,
+      0.7681,
+      0.7605
+    ]
+  },
+  "exp6_ablation": {
+    "queries": 120,
+    "profile": "buscar",
+    "reconstructionMaxErr": 0,
+    "rows": [
+      {
+        "signal": "distance",
+        "weight": 0.3,
+        "top1FlipPct": 85.8,
+        "rankCorr": 0.692,
+        "importance": 0.308
+      },
+      {
+        "signal": "text",
+        "weight": 0.14,
+        "top1FlipPct": 33.3,
+        "rankCorr": 0.839,
+        "importance": 0.161
+      },
+      {
+        "signal": "price",
+        "weight": 0.07,
+        "top1FlipPct": 20.8,
+        "rankCorr": 0.953,
+        "importance": 0.047
+      },
+      {
+        "signal": "expectedRating",
+        "weight": 0.25,
+        "top1FlipPct": 15,
+        "rankCorr": 0.968,
+        "importance": 0.032
+      },
+      {
+        "signal": "recency",
+        "weight": 0.06,
+        "top1FlipPct": 12.5,
+        "rankCorr": 0.975,
+        "importance": 0.025
+      },
+      {
+        "signal": "varPenalty",
+        "weight": 0.07,
+        "top1FlipPct": 12.5,
+        "rankCorr": 0.981,
+        "importance": 0.019
+      },
+      {
+        "signal": "categoryMatch",
+        "weight": 0.11,
+        "top1FlipPct": 7.5,
+        "rankCorr": 0.982,
+        "importance": 0.018
+      }
+    ]
+  },
+  "anatomy": {
+    "budget": 75000,
+    "focus": {
+      "categoryId": "2",
+      "subcategoryId": "201"
+    },
+    "weights": {
+      "distance": 0.3,
+      "expectedRating": 0.25,
+      "varPenalty": 0.07,
+      "text": 0.14,
+      "categoryMatch": 0.11,
+      "activity": 0,
+      "recency": 0.06,
+      "price": 0.07,
+      "engagement": 0,
+      "chips": 0,
+      "affinity": 0
+    },
+    "rows": [
+      {
+        "rank": 1,
+        "id": "e7000015",
+        "distanceKm": 1.6,
+        "eR": 3.67,
+        "contrib": {
+          "distancia": 0.2131,
+          "reputacion": 0.1833,
+          "penalizacion": -0.0358,
+          "texto": 0,
+          "foco": 0.11,
+          "recencia": 0.03,
+          "precio": 0.0539
+        },
+        "score": 0.5546
+      },
+      {
+        "rank": 2,
+        "id": "e7000049",
+        "distanceKm": 1.6,
+        "eR": 3.93,
+        "contrib": {
+          "distancia": 0.2131,
+          "reputacion": 0.1967,
+          "penalizacion": -0.0442,
+          "texto": 0,
+          "foco": 0.066,
+          "recencia": 0.03,
+          "precio": 0.0551
+        },
+        "score": 0.5167
+      },
+      {
+        "rank": 3,
+        "id": "e7000002",
+        "distanceKm": 1.6,
+        "eR": 3.56,
+        "contrib": {
+          "distancia": 0.2131,
+          "reputacion": 0.1778,
+          "penalizacion": -0.0553,
+          "texto": 0,
+          "foco": 0.066,
+          "recencia": 0.03,
+          "precio": 0.0619
+        },
+        "score": 0.4935
+      },
+      {
+        "rank": 4,
+        "id": "e7000073",
+        "distanceKm": 1.6,
+        "eR": 3.47,
+        "contrib": {
+          "distancia": 0.2131,
+          "reputacion": 0.1733,
+          "penalizacion": -0.0367,
+          "texto": 0,
+          "foco": 0.11,
+          "recencia": 0.03,
+          "precio": 0
+        },
+        "score": 0.4898
+      },
+      {
+        "rank": 5,
+        "id": "e7000098",
+        "distanceKm": 2.39,
+        "eR": 3.93,
+        "contrib": {
+          "distancia": 0.1565,
+          "reputacion": 0.1967,
+          "penalizacion": -0.0442,
+          "texto": 0,
+          "foco": 0.066,
+          "recencia": 0.03,
+          "precio": 0.0314
+        },
+        "score": 0.4364
+      },
+      {
+        "rank": 6,
+        "id": "e7000046",
+        "distanceKm": 4.79,
+        "eR": 4,
+        "contrib": {
+          "distancia": 0.0643,
+          "reputacion": 0.2,
+          "penalizacion": -0.0467,
+          "texto": 0,
+          "foco": 0.11,
+          "recencia": 0.03,
+          "precio": 0.0576
+        },
+        "score": 0.4152
+      }
+    ]
+  }
+}

@@ -1,0 +1,6014 @@
+{
+  "meta": {
+    "center": {
+      "lat": 3.4516,
+      "lng": -76.532
+    },
+    "res": 8,
+    "expertos": 250,
+    "consultas": 60,
+    "note": "Muestra inspeccionable de la población sintética; ilustra la forma de los datos, no es la fuente de las métricas."
+  },
+  "expertos": [
+    {
+      "id": "e9000000",
+      "lat": 3.4184118115328253,
+      "lng": -76.55778730653971,
+      "cell": "8866f1ce81fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 40888.850016053766,
+          "acceptable": 57244.39002247527,
+          "desired": 77688.81503050216
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000001",
+      "lat": 3.4636780107192697,
+      "lng": -76.4731647874303,
+      "cell": "8866f1c407fffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 85454.17107874528,
+          "acceptable": 119635.83951024337,
+          "desired": 162362.92504961602
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        0
+      ],
+      "eR": 3.667
+    },
+    {
+      "id": "e9000002",
+      "lat": 3.4885098208937793,
+      "lng": -76.5449962917976,
+      "cell": "8866f1c569fffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 78534.0313310735,
+          "acceptable": 109947.64386350289,
+          "desired": 149214.65952903964
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "eR": 4
+    },
+    {
+      "id": "e9000003",
+      "lat": 3.499513838075474,
+      "lng": -76.49117686912231,
+      "cell": "8866f1c717fffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 46924.813927616924,
+          "acceptable": 65694.7394986637,
+          "desired": 89157.14646247216
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "eR": 3.9
+    },
+    {
+      "id": "e9000004",
+      "lat": 3.4015095141328873,
+      "lng": -76.51984984962083,
+      "cell": "8866f1c5a7fffff",
+      "categoryId": "1",
+      "subcategoryId": "103",
+      "pricing": {
+        "activity": {
+          "min": 46396.949430927634,
+          "acceptable": 64955.72920329868,
+          "desired": 88154.2039187625
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000005",
+      "lat": 3.4874823481202126,
+      "lng": -76.55905465541221,
+      "cell": "8866f1c0b3fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 67568.30146536231,
+          "acceptable": 94595.62205150723,
+          "desired": 128379.77278418839
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "eR": 4
+    },
+    {
+      "id": "e9000006",
+      "lat": 3.429913503684476,
+      "lng": -76.48143127905949,
+      "cell": "8866f1c5d5fffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 65504.167447797954,
+          "acceptable": 91705.83442691714,
+          "desired": 124457.91815081611
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        3,
+        4,
+        0
+      ],
+      "eR": 3.5
+    },
+    {
+      "id": "e9000007",
+      "lat": 3.462829377416894,
+      "lng": -76.57905043968744,
+      "cell": "8866f1ce0bfffff",
+      "categoryId": "1",
+      "subcategoryId": "101",
+      "pricing": {
+        "activity": {
+          "min": 48505.273424088955,
+          "acceptable": 67907.38279372454,
+          "desired": 92160.01950576901
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        7
+      ],
+      "eR": 4.2
+    },
+    {
+      "id": "e9000008",
+      "lat": 3.3996203079245984,
+      "lng": -76.52097690499201,
+      "cell": "8866f1c5a7fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 76581.73489384353,
+          "acceptable": 107214.42885138094,
+          "desired": 145505.2962983027
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000009",
+      "lat": 3.4221825444776566,
+      "lng": -76.55074527609906,
+      "cell": "8866f1ce89fffff",
+      "categoryId": "1",
+      "subcategoryId": "102",
+      "pricing": {
+        "activity": {
+          "min": 54169.4217803888,
+          "acceptable": 75837.19049254432,
+          "desired": 102921.90138273872
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "eR": 3.625
+    },
+    {
+      "id": "e9000010",
+      "lat": 3.4456598322823644,
+      "lng": -76.56362921457551,
+      "cell": "8866f1ce13fffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 89550.30921846628,
+          "acceptable": 125370.43290585278,
+          "desired": 170145.58751508594
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000011",
+      "lat": 3.4090337077140807,
+      "lng": -76.55854926381073,
+      "cell": "8866f1ce87fffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 83501.91993871704,
+          "acceptable": 116902.68791420384,
+          "desired": 158653.64788356237
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000012",
+      "lat": 3.454771414239332,
+      "lng": -76.54391626060753,
+      "cell": "8866f1c523fffff",
+      "categoryId": "6",
+      "subcategoryId": "602",
+      "pricing": {
+        "activity": {
+          "min": 74300.08618161082,
+          "acceptable": 104020.12065425515,
+          "desired": 141170.16374506056
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        2
+      ],
+      "eR": 3.833
+    },
+    {
+      "id": "e9000013",
+      "lat": 3.457999384420365,
+      "lng": -76.56386528917402,
+      "cell": "8866f1c525fffff",
+      "categoryId": "6",
+      "subcategoryId": "602",
+      "pricing": {
+        "activity": {
+          "min": 79676.52169521898,
+          "acceptable": 111547.13037330657,
+          "desired": 151385.39122091606
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "eR": 3.867
+    },
+    {
+      "id": "e9000014",
+      "lat": 3.4388625732794402,
+      "lng": -76.59093901537172,
+      "cell": "8866f1ce31fffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 86912.76400117204,
+          "acceptable": 121677.86960164084,
+          "desired": 165134.25160222687
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        7,
+        1
+      ],
+      "eR": 3.8
+    },
+    {
+      "id": "e9000015",
+      "lat": 3.5021214777681977,
+      "lng": -76.53584081138298,
+      "cell": "8866f1c09bfffff",
+      "categoryId": "1",
+      "subcategoryId": "102",
+      "pricing": {
+        "activity": {
+          "min": 55420.86174013093,
+          "acceptable": 77589.2064361833,
+          "desired": 105299.63730624877
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        1,
+        7,
+        0
+      ],
+      "eR": 3.667
+    },
+    {
+      "id": "e9000016",
+      "lat": 3.4769816611785442,
+      "lng": -76.51204833174869,
+      "cell": "8866f1c551fffff",
+      "categoryId": "1",
+      "subcategoryId": "103",
+      "pricing": {
+        "activity": {
+          "min": 76165.82083050162,
+          "acceptable": 106632.14916270226,
+          "desired": 144715.05957795307
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000017",
+      "lat": 3.469852124954015,
+      "lng": -76.49165151883662,
+      "cell": "8866f1c42dfffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 78712.70102681592,
+          "acceptable": 110197.78143754229,
+          "desired": 149554.13195095025
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "eR": 3.867
+    },
+    {
+      "id": "e9000018",
+      "lat": 3.392377553003281,
+      "lng": -76.51752997192368,
+      "cell": "8866f11b49fffff",
+      "categoryId": "1",
+      "subcategoryId": "102",
+      "pricing": {
+        "activity": {
+          "min": 80807.40490462631,
+          "acceptable": 113130.36686647683,
+          "desired": 153534.06931879
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        0
+      ],
+      "eR": 3.667
+    },
+    {
+      "id": "e9000019",
+      "lat": 3.461126148037985,
+      "lng": -76.58207176636718,
+      "cell": "8866f1ce0bfffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 44514.638998080045,
+          "acceptable": 62320.494597312056,
+          "desired": 84577.81409635209
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "eR": 4
+    },
+    {
+      "id": "e9000020",
+      "lat": 3.4902648193653674,
+      "lng": -76.5071363686286,
+      "cell": "8866f1c737fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 58700.94158221036,
+          "acceptable": 82181.3182150945,
+          "desired": 111531.78900619969
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        7,
+        1
+      ],
+      "eR": 3.8
+    },
+    {
+      "id": "e9000021",
+      "lat": 3.479622560318932,
+      "lng": -76.53309347978606,
+      "cell": "8866f1c547fffff",
+      "categoryId": "1",
+      "subcategoryId": "103",
+      "pricing": {
+        "activity": {
+          "min": 40891.96419576183,
+          "acceptable": 57248.74987406656,
+          "desired": 77694.73197194748
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        1,
+        7,
+        0
+      ],
+      "eR": 3.667
+    },
+    {
+      "id": "e9000022",
+      "lat": 3.486487236058712,
+      "lng": -76.52197461929917,
+      "cell": "8866f1c543fffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 55061.39652337879,
+          "acceptable": 77085.9551327303,
+          "desired": 104616.6533944197
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        5
+      ],
+      "eR": 4.077
+    },
+    {
+      "id": "e9000023",
+      "lat": 3.4008721084225924,
+      "lng": -76.52742509416117,
+      "cell": "8866f1ce9bfffff",
+      "categoryId": "4",
+      "subcategoryId": "402",
+      "pricing": {
+        "activity": {
+          "min": 84347.6709886454,
+          "acceptable": 118086.73938410355,
+          "desired": 160260.57487842627
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000024",
+      "lat": 3.4265965498782696,
+      "lng": -76.4843468704056,
+      "cell": "8866f1c5d5fffff",
+      "categoryId": "4",
+      "subcategoryId": "401",
+      "pricing": {
+        "activity": {
+          "min": 83196.35732099414,
+          "acceptable": 116474.90024939178,
+          "desired": 158073.07890988886
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "eR": 3.867
+    },
+    {
+      "id": "e9000025",
+      "lat": 3.3954829223718495,
+      "lng": -76.54675681880488,
+      "cell": "8866f1cebbfffff",
+      "categoryId": "1",
+      "subcategoryId": "102",
+      "pricing": {
+        "activity": {
+          "min": 48855.15642585233,
+          "acceptable": 68397.21899619326,
+          "desired": 92824.79720911942
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        7,
+        1
+      ],
+      "eR": 3.8
+    },
+    {
+      "id": "e9000026",
+      "lat": 3.4285615141581745,
+      "lng": -76.53820244450867,
+      "cell": "8866f1ceddfffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 58049.78589061648,
+          "acceptable": 81269.70024686307,
+          "desired": 110294.5931921713
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        1
+      ],
+      "eR": 3.769
+    },
+    {
+      "id": "e9000027",
+      "lat": 3.475514349153638,
+      "lng": -76.58973981167935,
+      "cell": "8866f1ce09fffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 52140.69699635729,
+          "acceptable": 72996.97579490021,
+          "desired": 99067.32429307885
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000028",
+      "lat": 3.4422407606601717,
+      "lng": -76.482675604688,
+      "cell": "8866f1c5cbfffff",
+      "categoryId": "4",
+      "subcategoryId": "402",
+      "pricing": {
+        "activity": {
+          "min": 66808.48118616268,
+          "acceptable": 93531.87366062775,
+          "desired": 126936.1142537091
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000029",
+      "lat": 3.50977085839808,
+      "lng": -76.5591684412565,
+      "cell": "8866f1c083fffff",
+      "categoryId": "4",
+      "subcategoryId": "401",
+      "pricing": {
+        "activity": {
+          "min": 59375.61419326812,
+          "acceptable": 83125.85987057537,
+          "desired": 112813.66696720943
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        6
+      ],
+      "eR": 4.133
+    },
+    {
+      "id": "e9000030",
+      "lat": 3.4551135880857706,
+      "lng": -76.58154550857655,
+      "cell": "8866f1ce1dfffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 51700.302467215806,
+          "acceptable": 72380.42345410213,
+          "desired": 98230.57468771003
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000031",
+      "lat": 3.449656179210544,
+      "lng": -76.49014581898041,
+      "cell": "8866f1c5c9fffff",
+      "categoryId": "1",
+      "subcategoryId": "101",
+      "pricing": {
+        "activity": {
+          "min": 63352.57803788409,
+          "acceptable": 88693.60925303772,
+          "desired": 120369.89827197976
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        7,
+        1
+      ],
+      "eR": 3.8
+    },
+    {
+      "id": "e9000032",
+      "lat": 3.4391053581222892,
+      "lng": -76.55649958958662,
+      "cell": "8866f1cec1fffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 77165.94921424985,
+          "acceptable": 108032.32889994979,
+          "desired": 146615.3035070747
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "eR": 3.867
+    },
+    {
+      "id": "e9000033",
+      "lat": 3.4911629151444883,
+      "lng": -76.47584353357367,
+      "cell": "8866f1c445fffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 52282.2686098516,
+          "acceptable": 73195.17605379224,
+          "desired": 99336.31035871804
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "eR": 3.867
+    },
+    {
+      "id": "e9000034",
+      "lat": 3.418213209070638,
+      "lng": -76.52886828399076,
+      "cell": "8866f1ced3fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 50390.43670753017,
+          "acceptable": 70546.61139054224,
+          "desired": 95741.82974430732
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000035",
+      "lat": 3.475411767147854,
+      "lng": -76.47863326128386,
+      "cell": "8866f1c405fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 77995.40118779987,
+          "acceptable": 109193.56166291982,
+          "desired": 148191.26225681975
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "eR": 3.9
+    },
+    {
+      "id": "e9000036",
+      "lat": 3.4230747774228454,
+      "lng": -76.56071903777122,
+      "cell": "8866f1ce8dfffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 47980.200834572315,
+          "acceptable": 67172.28116840124,
+          "desired": 91162.3815856874
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        7
+      ],
+      "eR": 4.2
+    },
+    {
+      "id": "e9000037",
+      "lat": 3.442323202796653,
+      "lng": -76.58098719031364,
+      "cell": "8866f1ce3bfffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 88688.09886975214,
+          "acceptable": 124163.33841765298,
+          "desired": 168507.38785252906
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "eR": 3.5
+    },
+    {
+      "id": "e9000038",
+      "lat": 3.4513444169130176,
+      "lng": -76.50542103131114,
+      "cell": "8866f1c513fffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 75232.84880211577,
+          "acceptable": 105325.98832296208,
+          "desired": 142942.41272401996
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "eR": 3.778
+    },
+    {
+      "id": "e9000039",
+      "lat": 3.394077482119575,
+      "lng": -76.50072961964457,
+      "cell": "8866f1c5b1fffff",
+      "categoryId": "1",
+      "subcategoryId": "101",
+      "pricing": {
+        "activity": {
+          "min": 58979.46399403736,
+          "acceptable": 82571.2495916523,
+          "desired": 112060.98158867098
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      "eR": 3.6
+    },
+    {
+      "id": "e9000040",
+      "lat": 3.4977452560313047,
+      "lng": -76.54146960187516,
+      "cell": "8866f1c093fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 56982.5486256741,
+          "acceptable": 79775.56807594374,
+          "desired": 108266.84238878079
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "eR": 3.733
+    },
+    {
+      "id": "e9000041",
+      "lat": 3.3944193966578693,
+      "lng": -76.5228430176042,
+      "cell": "8866f11b4dfffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 87112.43658093736,
+          "acceptable": 121957.41121331228,
+          "desired": 165513.62950378098
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        1,
+        7,
+        0
+      ],
+      "eR": 3.667
+    },
+    {
+      "id": "e9000042",
+      "lat": 3.4894529136348518,
+      "lng": -76.48335569104924,
+      "cell": "8866f1c469fffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 87691.37025577947,
+          "acceptable": 122767.91835809125,
+          "desired": 166613.603485981
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        3,
+        5,
+        0
+      ],
+      "eR": 3.533
+    },
+    {
+      "id": "e9000043",
+      "lat": 3.409280944884196,
+      "lng": -76.56116863037273,
+      "cell": "8866f1ce87fffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 58088.743183761835,
+          "acceptable": 81324.24045726657,
+          "desired": 110368.61204914749
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        7
+      ],
+      "eR": 4.2
+    },
+    {
+      "id": "e9000044",
+      "lat": 3.4873860548608007,
+      "lng": -76.57014710044302,
+      "cell": "8866f1c0b7fffff",
+      "categoryId": "4",
+      "subcategoryId": "402",
+      "pricing": {
+        "activity": {
+          "min": 67371.3126196526,
+          "acceptable": 94319.83766751364,
+          "desired": 128005.49397733994
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000045",
+      "lat": 3.439201852659136,
+      "lng": -76.51257369125075,
+      "cell": "8866f1c5e9fffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 48519.813616294414,
+          "acceptable": 67927.73906281218,
+          "desired": 92187.64587095939
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "eR": 3.733
+    },
+    {
+      "id": "e9000046",
+      "lat": 3.4244753233142196,
+      "lng": -76.56450764945522,
+      "cell": "8866f1ce8dfffff",
+      "categoryId": "1",
+      "subcategoryId": "101",
+      "pricing": {
+        "activity": {
+          "min": 68432.85057460889,
+          "acceptable": 95805.99080445245,
+          "desired": 130022.4160917569
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000047",
+      "lat": 3.4604025819510222,
+      "lng": -76.58792021301389,
+      "cell": "8866f1ce03fffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 57147.55243156105,
+          "acceptable": 80006.57340418547,
+          "desired": 108580.349619966
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "eR": 3.625
+    },
+    {
+      "id": "e9000048",
+      "lat": 3.4990020478967576,
+      "lng": -76.51275368499383,
+      "cell": "8866f1c735fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 68068.02960112691,
+          "acceptable": 95295.24144157767,
+          "desired": 129329.25624214113
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000049",
+      "lat": 3.5056443594567477,
+      "lng": -76.51449690582976,
+      "cell": "8866f1c73dfffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 69321.27052918077,
+          "acceptable": 97049.77874085307,
+          "desired": 131710.41400544345
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "eR": 3.625
+    },
+    {
+      "id": "e9000050",
+      "lat": 3.4113191975917667,
+      "lng": -76.56201669351012,
+      "cell": "8866f1ce85fffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 67935.10552728549,
+          "acceptable": 95109.14773819968,
+          "desired": 129076.70050184242
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        6
+      ],
+      "eR": 4.133
+    },
+    {
+      "id": "e9000051",
+      "lat": 3.5050832466952504,
+      "lng": -76.54873824162222,
+      "cell": "8866f1c091fffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 71122.47291719541,
+          "acceptable": 99571.46208407357,
+          "desired": 135132.69854267128
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        1,
+        7,
+        0
+      ],
+      "eR": 3.667
+    },
+    {
+      "id": "e9000052",
+      "lat": 3.4702296676378697,
+      "lng": -76.48805490878225,
+      "cell": "8866f1c429fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 76999.78598160669,
+          "acceptable": 107799.70037424937,
+          "desired": 146299.59336505271
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "eR": 3.867
+    },
+    {
+      "id": "e9000053",
+      "lat": 3.4727724074557424,
+      "lng": -76.5388052627705,
+      "cell": "8866f1c50dfffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 78586.73031209037,
+          "acceptable": 110021.42243692651,
+          "desired": 149314.7875929717
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        2,
+        6,
+        0
+      ],
+      "eR": 3.6
+    },
+    {
+      "id": "e9000054",
+      "lat": 3.410179486049712,
+      "lng": -76.52660915447213,
+      "cell": "8866f1c5a5fffff",
+      "categoryId": "4",
+      "subcategoryId": "403",
+      "pricing": {
+        "activity": {
+          "min": 55556.40797596425,
+          "acceptable": 77778.97116634995,
+          "desired": 105557.17515433207
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000055",
+      "lat": 3.402316579761356,
+      "lng": -76.54609404353238,
+      "cell": "8866f1ce95fffff",
+      "categoryId": "4",
+      "subcategoryId": "402",
+      "pricing": {
+        "activity": {
+          "min": 72534.30183976889,
+          "acceptable": 101548.02257567644,
+          "desired": 137815.17349556088
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "eR": 3.867
+    },
+    {
+      "id": "e9000056",
+      "lat": 3.4216180482771246,
+      "lng": -76.52948167015612,
+      "cell": "8866f1cedbfffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 53006.72095967457,
+          "acceptable": 74209.4093435444,
+          "desired": 100712.76982338168
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000057",
+      "lat": 3.441732409911603,
+      "lng": -76.49621082771382,
+      "cell": "8866f1c5c1fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 45830.633477307856,
+          "acceptable": 64162.88686823099,
+          "desired": 87078.20360688493
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000058",
+      "lat": 3.443953459550068,
+      "lng": -76.50398620757088,
+      "cell": "8866f1c5c5fffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 81865.63759576529,
+          "acceptable": 114611.89263407141,
+          "desired": 155544.71143195406
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000059",
+      "lat": 3.3959857046868653,
+      "lng": -76.55268020930514,
+      "cell": "8866f1ceb9fffff",
+      "categoryId": "1",
+      "subcategoryId": "103",
+      "pricing": {
+        "activity": {
+          "min": 65974.38128432259,
+          "acceptable": 92364.13379805163,
+          "desired": 125351.32444021292
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        7
+      ],
+      "eR": 4.2
+    },
+    {
+      "id": "e9000060",
+      "lat": 3.4751112739913164,
+      "lng": -76.57174793545902,
+      "cell": "8866f1ce51fffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 72134.69958864152,
+          "acceptable": 100988.57942409813,
+          "desired": 137055.9292184189
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000061",
+      "lat": 3.425826791402325,
+      "lng": -76.57824324771575,
+      "cell": "8866f1cee1fffff",
+      "categoryId": "1",
+      "subcategoryId": "103",
+      "pricing": {
+        "activity": {
+          "min": 65856.49932734668,
+          "acceptable": 92199.09905828536,
+          "desired": 125127.3487219587
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000062",
+      "lat": 3.460525649160519,
+      "lng": -76.58976776655577,
+      "cell": "8866f1ce01fffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 43714.801312889904,
+          "acceptable": 61200.72183804586,
+          "desired": 83058.12249449082
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        6
+      ],
+      "eR": 4.133
+    },
+    {
+      "id": "e9000063",
+      "lat": 3.5090840439949185,
+      "lng": -76.58010063574463,
+      "cell": "8866f1c0abfffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 81668.0951952003,
+          "acceptable": 114335.33327328041,
+          "desired": 155169.38087088056
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "eR": 3.444
+    },
+    {
+      "id": "e9000064",
+      "lat": 3.4781105143003166,
+      "lng": -76.54931201410294,
+      "cell": "8866f1c561fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 57487.54967702553,
+          "acceptable": 80482.56954783574,
+          "desired": 109226.3443863485
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "eR": 4
+    },
+    {
+      "id": "e9000065",
+      "lat": 3.46490423688516,
+      "lng": -76.51720446906798,
+      "cell": "8866f1c51dfffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 88682.55846668035,
+          "acceptable": 124155.58185335247,
+          "desired": 168496.86108669266
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000066",
+      "lat": 3.4339514834139497,
+      "lng": -76.52078544768318,
+      "cell": "8866f1c5e5fffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 51237.35927976668,
+          "acceptable": 71732.30299167335,
+          "desired": 97350.98263155669
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        7,
+        1
+      ],
+      "eR": 3.8
+    },
+    {
+      "id": "e9000067",
+      "lat": 3.414348155798763,
+      "lng": -76.53776301144435,
+      "cell": "8866f1ced7fffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 42549.423498567194,
+          "acceptable": 59569.192897994064,
+          "desired": 80843.90464727767
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        5
+      ],
+      "eR": 4.071
+    },
+    {
+      "id": "e9000068",
+      "lat": 3.4352063268221915,
+      "lng": -76.55237324526347,
+      "cell": "8866f1cec1fffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 69332.57477125153,
+          "acceptable": 97065.60467975214,
+          "desired": 131731.8920653779
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "eR": 3.867
+    },
+    {
+      "id": "e9000069",
+      "lat": 3.4348947446033358,
+      "lng": -76.56829036748782,
+      "cell": "8866f1cee9fffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 64398.45647895709,
+          "acceptable": 90157.83907053992,
+          "desired": 122357.06731001846
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "eR": 3.733
+    },
+    {
+      "id": "e9000070",
+      "lat": 3.441305110937357,
+      "lng": -76.51183827030286,
+      "cell": "8866f1c5e9fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 76553.32298949361,
+          "acceptable": 107174.65218529105,
+          "desired": 145451.31368003786
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        5,
+        3,
+        0
+      ],
+      "eR": 3.4
+    },
+    {
+      "id": "e9000071",
+      "lat": 3.478222247332707,
+      "lng": -76.51458284031413,
+      "cell": "8866f1c555fffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 73326.90765382722,
+          "acceptable": 102657.67071535811,
+          "desired": 139321.12454227172
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "eR": 3.867
+    },
+    {
+      "id": "e9000072",
+      "lat": 3.39392839343138,
+      "lng": -76.53762618246301,
+      "cell": "8866f1ce97fffff",
+      "categoryId": "4",
+      "subcategoryId": "401",
+      "pricing": {
+        "activity": {
+          "min": 75006.52011716738,
+          "acceptable": 105009.12816403434,
+          "desired": 142512.38822261803
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "eR": 4
+    },
+    {
+      "id": "e9000073",
+      "lat": 3.4922632642634213,
+      "lng": -76.56532101078703,
+      "cell": "8866f1c0b3fffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 84103.27380755916,
+          "acceptable": 117744.58333058281,
+          "desired": 159796.2202343624
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000074",
+      "lat": 3.501262019405514,
+      "lng": -76.50412444842793,
+      "cell": "8866f1c731fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 41607.13371587917,
+          "acceptable": 58249.987202230834,
+          "desired": 79053.55406017043
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000075",
+      "lat": 3.4698665554899724,
+      "lng": -76.57639505907707,
+      "cell": "8866f1ce55fffff",
+      "categoryId": "4",
+      "subcategoryId": "403",
+      "pricing": {
+        "activity": {
+          "min": 84878.62932728603,
+          "acceptable": 118830.08105820043,
+          "desired": 161269.39572184347
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        6
+      ],
+      "eR": 4.133
+    },
+    {
+      "id": "e9000076",
+      "lat": 3.463960348701477,
+      "lng": -76.53678562515229,
+      "cell": "8866f1c507fffff",
+      "categoryId": "4",
+      "subcategoryId": "403",
+      "pricing": {
+        "activity": {
+          "min": 47569.54333046451,
+          "acceptable": 66597.36066265032,
+          "desired": 90382.13232788257
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "eR": 3.733
+    },
+    {
+      "id": "e9000077",
+      "lat": 3.406417789690569,
+      "lng": -76.53023976960033,
+      "cell": "8866f1ce99fffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 73837.4639977701,
+          "acceptable": 103372.44959687814,
+          "desired": 140291.1815957632
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000078",
+      "lat": 3.471120644834265,
+      "lng": -76.58019577294401,
+      "cell": "8866f1ce55fffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 70456.25096419826,
+          "acceptable": 98638.75134987757,
+          "desired": 133866.8768319767
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        3
+      ],
+      "eR": 3.917
+    },
+    {
+      "id": "e9000079",
+      "lat": 3.48854216475822,
+      "lng": -76.49417269548215,
+      "cell": "8866f1c46dfffff",
+      "categoryId": "4",
+      "subcategoryId": "401",
+      "pricing": {
+        "activity": {
+          "min": 59877.20599863678,
+          "acceptable": 83828.0883980915,
+          "desired": 113766.69139740989
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        7,
+        1
+      ],
+      "eR": 3.8
+    },
+    {
+      "id": "e9000080",
+      "lat": 3.4355132390078156,
+      "lng": -76.51361844569259,
+      "cell": "8866f1c5e1fffff",
+      "categoryId": "1",
+      "subcategoryId": "101",
+      "pricing": {
+        "activity": {
+          "min": 53022.202148567885,
+          "acceptable": 74231.08300799504,
+          "desired": 100742.18408227898
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000081",
+      "lat": 3.4722063286121934,
+      "lng": -76.58402693790197,
+      "cell": "8866f1ce09fffff",
+      "categoryId": "4",
+      "subcategoryId": "402",
+      "pricing": {
+        "activity": {
+          "min": 52398.035486694425,
+          "acceptable": 73357.2496813722,
+          "desired": 99556.26742471941
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "eR": 3.733
+    },
+    {
+      "id": "e9000082",
+      "lat": 3.402318228146434,
+      "lng": -76.47756646129116,
+      "cell": "8866f1c591fffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 48563.07493522763,
+          "acceptable": 67988.30490931869,
+          "desired": 92269.8423769325
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        6
+      ],
+      "eR": 4.133
+    },
+    {
+      "id": "e9000083",
+      "lat": 3.4785399983529,
+      "lng": -76.48017973605357,
+      "cell": "8866f1c463fffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 58594.98177655041,
+          "acceptable": 82032.97448717058,
+          "desired": 111330.46537544578
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000084",
+      "lat": 3.4052061908118425,
+      "lng": -76.48889619554207,
+      "cell": "8866f1c595fffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 49752.32545752078,
+          "acceptable": 69653.2556405291,
+          "desired": 94529.41836928949
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      "eR": 3.818
+    },
+    {
+      "id": "e9000085",
+      "lat": 3.4163734802309422,
+      "lng": -76.49159954855033,
+      "cell": "8866f1c581fffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 60920.759765431285,
+          "acceptable": 85289.0636716038,
+          "desired": 115749.44355431944
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000086",
+      "lat": 3.4470759102035315,
+      "lng": -76.55099080702104,
+      "cell": "8866f1cec9fffff",
+      "categoryId": "4",
+      "subcategoryId": "403",
+      "pricing": {
+        "activity": {
+          "min": 75991.7014837265,
+          "acceptable": 106388.3820772171,
+          "desired": 144384.23281908035
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "eR": 4
+    },
+    {
+      "id": "e9000087",
+      "lat": 3.4237432894375175,
+      "lng": -76.59190492759272,
+      "cell": "8866f1cc59fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 51746.05166306719,
+          "acceptable": 72444.47232829407,
+          "desired": 98317.49815982766
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000088",
+      "lat": 3.4806709011256696,
+      "lng": -76.5579692392405,
+      "cell": "8866f1c565fffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 88790.90443719178,
+          "acceptable": 124307.26621206848,
+          "desired": 168702.7184306644
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000089",
+      "lat": 3.3917314858254044,
+      "lng": -76.53197826726175,
+      "cell": "8866f1ce93fffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 72017.10534049198,
+          "acceptable": 100823.94747668877,
+          "desired": 136832.50014693476
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        7
+      ],
+      "eR": 4.214
+    },
+    {
+      "id": "e9000090",
+      "lat": 3.477001526065543,
+      "lng": -76.48355735103414,
+      "cell": "8866f1c463fffff",
+      "categoryId": "6",
+      "subcategoryId": "602",
+      "pricing": {
+        "activity": {
+          "min": 42581.63943653926,
+          "acceptable": 59614.29521115496,
+          "desired": 80905.1149294246
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000091",
+      "lat": 3.3921951285362244,
+      "lng": -76.53304371575638,
+      "cell": "8866f1ce93fffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 85902.56527299061,
+          "acceptable": 120263.59138218685,
+          "desired": 163214.87401868217
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        6,
+        2,
+        0
+      ],
+      "eR": 3.333
+    },
+    {
+      "id": "e9000092",
+      "lat": 3.437552733885497,
+      "lng": -76.5546740972977,
+      "cell": "8866f1cec1fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 75315.84384618327,
+          "acceptable": 105442.18138465658,
+          "desired": 143100.1033077482
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "eR": 3.867
+    },
+    {
+      "id": "e9000093",
+      "lat": 3.4290082693737,
+      "lng": -76.55727676942757,
+      "cell": "8866f1cec7fffff",
+      "categoryId": "1",
+      "subcategoryId": "103",
+      "pricing": {
+        "activity": {
+          "min": 47610.07722467184,
+          "acceptable": 66654.10811454058,
+          "desired": 90459.1467268765
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "eR": 3.733
+    },
+    {
+      "id": "e9000094",
+      "lat": 3.4204630931265654,
+      "lng": -76.56160287204943,
+      "cell": "8866f1ce8dfffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 58210.96017956734,
+          "acceptable": 81495.34425139427,
+          "desired": 110600.82434117794
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      "eR": 3.7
+    },
+    {
+      "id": "e9000095",
+      "lat": 3.449925675725937,
+      "lng": -76.58873634476028,
+      "cell": "8866f1ce39fffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 62004.815051332116,
+          "acceptable": 86806.74107186496,
+          "desired": 117809.14859753102
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000096",
+      "lat": 3.466316462874785,
+      "lng": -76.5124913163092,
+      "cell": "8866f1c557fffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 89610.99895881489,
+          "acceptable": 125455.39854234083,
+          "desired": 170260.8980217483
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000097",
+      "lat": 3.489651258213818,
+      "lng": -76.5661900440771,
+      "cell": "8866f1c0b3fffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 48516.7161305435,
+          "acceptable": 67923.4025827609,
+          "desired": 92181.76064803265
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "eR": 3.5
+    },
+    {
+      "id": "e9000098",
+      "lat": 3.4026039964783936,
+      "lng": -76.58311100995913,
+      "cell": "8866f1cea5fffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 74423.19433670491,
+          "acceptable": 104192.47207138687,
+          "desired": 141404.06923973933
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "eR": 3.733
+    },
+    {
+      "id": "e9000099",
+      "lat": 3.419686471632123,
+      "lng": -76.57526517506503,
+      "cell": "8866f1cee7fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 76826.07520604506,
+          "acceptable": 107556.50528846309,
+          "desired": 145969.54289148562
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "eR": 3.867
+    },
+    {
+      "id": "e9000100",
+      "lat": 3.4252598220374435,
+      "lng": -76.53982619017177,
+      "cell": "8866f1ced5fffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 87416.76150588319,
+          "acceptable": 122383.46610823645,
+          "desired": 166091.84686117806
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000101",
+      "lat": 3.485224066459015,
+      "lng": -76.54551835503243,
+      "cell": "8866f1c569fffff",
+      "categoryId": "4",
+      "subcategoryId": "402",
+      "pricing": {
+        "activity": {
+          "min": 53814.504246693105,
+          "acceptable": 75340.30594537035,
+          "desired": 102247.5580687169
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000102",
+      "lat": 3.461511609189585,
+      "lng": -76.58239025024511,
+      "cell": "8866f1ce0bfffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 60605.28355650604,
+          "acceptable": 84847.39697910845,
+          "desired": 115150.03875736147
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000103",
+      "lat": 3.5067945391856132,
+      "lng": -76.52402509505674,
+      "cell": "8866f1c723fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 57042.67599852756,
+          "acceptable": 79859.74639793858,
+          "desired": 108381.08439720236
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000104",
+      "lat": 3.4117486131362615,
+      "lng": -76.56260310067609,
+      "cell": "8866f1ce85fffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 83148.90175592154,
+          "acceptable": 116408.46245829015,
+          "desired": 157982.91333625093
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000105",
+      "lat": 3.4280336123969404,
+      "lng": -76.5112513075564,
+      "cell": "8866f1c5e3fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 64749.17544750497,
+          "acceptable": 90648.84562650695,
+          "desired": 123023.43335025944
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "eR": 3.625
+    },
+    {
+      "id": "e9000106",
+      "lat": 3.481284138484299,
+      "lng": -76.5900176408682,
+      "cell": "8866f1ce47fffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 45088.787944987416,
+          "acceptable": 63124.303122982375,
+          "desired": 85668.69709547609
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000107",
+      "lat": 3.507110004796088,
+      "lng": -76.5268327213712,
+      "cell": "8866f1c727fffff",
+      "categoryId": "4",
+      "subcategoryId": "401",
+      "pricing": {
+        "activity": {
+          "min": 89710.63364064321,
+          "acceptable": 125594.88709690048,
+          "desired": 170450.2039172221
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000108",
+      "lat": 3.439855102848634,
+      "lng": -76.59066518569179,
+      "cell": "8866f1ce31fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 71080.5321787484,
+          "acceptable": 99512.74505024776,
+          "desired": 135053.01113962196
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000109",
+      "lat": 3.4058439565528182,
+      "lng": -76.47401055803336,
+      "cell": "8866f1c591fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 85157.76701737195,
+          "acceptable": 119220.87382432072,
+          "desired": 161799.7573330067
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000110",
+      "lat": 3.450814065037668,
+      "lng": -76.48534919638,
+      "cell": "8866f1c5c9fffff",
+      "categoryId": "1",
+      "subcategoryId": "102",
+      "pricing": {
+        "activity": {
+          "min": 65047.71174862981,
+          "acceptable": 91066.79644808173,
+          "desired": 123590.65232239664
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000111",
+      "lat": 3.46469435791336,
+      "lng": -76.50269094184786,
+      "cell": "8866f1c425fffff",
+      "categoryId": "6",
+      "subcategoryId": "602",
+      "pricing": {
+        "activity": {
+          "min": 65738.90929343179,
+          "acceptable": 92034.4730108045,
+          "desired": 124903.9276575204
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000112",
+      "lat": 3.455741024723649,
+      "lng": -76.50053661229833,
+      "cell": "8866f1c51bfffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 87805.07778050378,
+          "acceptable": 122927.10889270528,
+          "desired": 166829.64778295718
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        1
+      ],
+      "eR": 3.727
+    },
+    {
+      "id": "e9000113",
+      "lat": 3.486511768687889,
+      "lng": -76.55711717382817,
+      "cell": "8866f1c56dfffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 69314.01786627248,
+          "acceptable": 97039.62501278147,
+          "desired": 131696.6339459177
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000114",
+      "lat": 3.4715551095534116,
+      "lng": -76.53996905683353,
+      "cell": "8866f1c505fffff",
+      "categoryId": "4",
+      "subcategoryId": "401",
+      "pricing": {
+        "activity": {
+          "min": 84494.8285468854,
+          "acceptable": 118292.75996563955,
+          "desired": 160540.17423908226
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        7
+      ],
+      "eR": 4.2
+    },
+    {
+      "id": "e9000115",
+      "lat": 3.443938393079117,
+      "lng": -76.53144918152876,
+      "cell": "8866f1c531fffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 47591.79276647046,
+          "acceptable": 66628.50987305865,
+          "desired": 90424.40625629388
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        6
+      ],
+      "eR": 4.143
+    },
+    {
+      "id": "e9000116",
+      "lat": 3.4618259214781224,
+      "lng": -76.48425514872,
+      "cell": "8866f1c42bfffff",
+      "categoryId": "6",
+      "subcategoryId": "602",
+      "pricing": {
+        "activity": {
+          "min": 72459.04172072187,
+          "acceptable": 101442.65840901062,
+          "desired": 137672.17926937155
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000117",
+      "lat": 3.429129697837308,
+      "lng": -76.50484526991657,
+      "cell": "8866f1c5ebfffff",
+      "categoryId": "1",
+      "subcategoryId": "103",
+      "pricing": {
+        "activity": {
+          "min": 60210.51027113572,
+          "acceptable": 84294.71437959,
+          "desired": 114399.96951515786
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000118",
+      "lat": 3.4896021850485353,
+      "lng": -76.58183659885823,
+      "cell": "8866f1ce4bfffff",
+      "categoryId": "6",
+      "subcategoryId": "602",
+      "pricing": {
+        "activity": {
+          "min": 86018.78736866638,
+          "acceptable": 120426.30231613292,
+          "desired": 163435.69600046612
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000119",
+      "lat": 3.4887614514943213,
+      "lng": -76.52189175074733,
+      "cell": "8866f1c54bfffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 82994.72165293992,
+          "acceptable": 116192.61031411587,
+          "desired": 157689.97114058584
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000120",
+      "lat": 3.4653896822951733,
+      "lng": -76.56874104727804,
+      "cell": "8866f1ce53fffff",
+      "categoryId": "1",
+      "subcategoryId": "102",
+      "pricing": {
+        "activity": {
+          "min": 82717.81753050163,
+          "acceptable": 115804.94454270227,
+          "desired": 157163.8533079531
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000121",
+      "lat": 3.4781814155898987,
+      "lng": -76.56576343082637,
+      "cell": "8866f1ce59fffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 45501.41304265708,
+          "acceptable": 63701.9782597199,
+          "desired": 86452.68478104845
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000122",
+      "lat": 3.4762055571269244,
+      "lng": -76.49077163584344,
+      "cell": "8866f1c467fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 64350.610619876534,
+          "acceptable": 90090.85486782715,
+          "desired": 122266.16017776541
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000123",
+      "lat": 3.411744592644647,
+      "lng": -76.54809982555732,
+      "cell": "8866f1ce8bfffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 81053.62899135798,
+          "acceptable": 113475.08058790118,
+          "desired": 154001.89508358017
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000124",
+      "lat": 3.4283815737240015,
+      "lng": -76.52571454497799,
+      "cell": "8866f1c5e5fffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 83805.9693435207,
+          "acceptable": 117328.35708092897,
+          "desired": 159231.34175268933
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000125",
+      "lat": 3.4425759936481715,
+      "lng": -76.58047712697461,
+      "cell": "8866f1ce17fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 68177.70735127851,
+          "acceptable": 95448.79029178992,
+          "desired": 129537.64396742918
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000126",
+      "lat": 3.4296752329714595,
+      "lng": -76.51555320676229,
+      "cell": "8866f1c5e1fffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 81825.93487203121,
+          "acceptable": 114556.3088208437,
+          "desired": 155469.2762568593
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000127",
+      "lat": 3.4593547993231564,
+      "lng": -76.54971174105815,
+      "cell": "8866f1c521fffff",
+      "categoryId": "6",
+      "subcategoryId": "602",
+      "pricing": {
+        "activity": {
+          "min": 63892.67683029175,
+          "acceptable": 89449.74756240845,
+          "desired": 121396.08597755432
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        1
+      ],
+      "eR": 3.786
+    },
+    {
+      "id": "e9000128",
+      "lat": 3.511072116706893,
+      "lng": -76.57699379269778,
+      "cell": "8866f1c0abfffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 45581.778835039586,
+          "acceptable": 63814.49036905541,
+          "desired": 86605.37978657521
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000129",
+      "lat": 3.4708943412438034,
+      "lng": -76.50390535115078,
+      "cell": "8866f1c553fffff",
+      "categoryId": "4",
+      "subcategoryId": "401",
+      "pricing": {
+        "activity": {
+          "min": 84307.19846859574,
+          "acceptable": 118030.07785603403,
+          "desired": 160183.6770903319
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        6
+      ],
+      "eR": 4.133
+    },
+    {
+      "id": "e9000130",
+      "lat": 3.4785267871323975,
+      "lng": -76.54596517453714,
+      "cell": "8866f1c563fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 47806.689641438425,
+          "acceptable": 66929.3654980138,
+          "desired": 90832.710318733
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        6
+      ],
+      "eR": 4.133
+    },
+    {
+      "id": "e9000131",
+      "lat": 3.4917618373021484,
+      "lng": -76.55484368225373,
+      "cell": "8866f1c56dfffff",
+      "categoryId": "1",
+      "subcategoryId": "101",
+      "pricing": {
+        "activity": {
+          "min": 67124.44657227024,
+          "acceptable": 93974.22520117834,
+          "desired": 127536.44848731346
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000132",
+      "lat": 3.503556357751042,
+      "lng": -76.49227115348727,
+      "cell": "8866f1c717fffff",
+      "categoryId": "4",
+      "subcategoryId": "401",
+      "pricing": {
+        "activity": {
+          "min": 76548.81267575547,
+          "acceptable": 107168.33774605766,
+          "desired": 145442.7440839354
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000133",
+      "lat": 3.4776893303435297,
+      "lng": -76.5682975710351,
+      "cell": "8866f1ce59fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 44360.09858967736,
+          "acceptable": 62104.1380255483,
+          "desired": 84284.18732038699
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000134",
+      "lat": 3.403079789232835,
+      "lng": -76.51712871745042,
+      "cell": "8866f1c5a7fffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 51563.495465088636,
+          "acceptable": 72188.89365112409,
+          "desired": 97970.64138366841
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000135",
+      "lat": 3.4229811321463437,
+      "lng": -76.49396204747073,
+      "cell": "8866f1c589fffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 75196.08189817518,
+          "acceptable": 105274.51465744525,
+          "desired": 142872.55560653284
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      "eR": 3.8
+    },
+    {
+      "id": "e9000136",
+      "lat": 3.4389911910969766,
+      "lng": -76.55988104065693,
+      "cell": "8866f1cec5fffff",
+      "categoryId": "4",
+      "subcategoryId": "401",
+      "pricing": {
+        "activity": {
+          "min": 73180.14446413144,
+          "acceptable": 102452.20224978402,
+          "desired": 139042.27448184974
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000137",
+      "lat": 3.4957843982413412,
+      "lng": -76.47840101687983,
+      "cell": "8866f1c445fffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 82931.88019655645,
+          "acceptable": 116104.63227517901,
+          "desired": 157570.57237345725
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        7
+      ],
+      "eR": 4.2
+    },
+    {
+      "id": "e9000138",
+      "lat": 3.4740784395378084,
+      "lng": -76.52125322795287,
+      "cell": "8866f1c555fffff",
+      "categoryId": "1",
+      "subcategoryId": "101",
+      "pricing": {
+        "activity": {
+          "min": 87010.63925167546,
+          "acceptable": 121814.89495234562,
+          "desired": 165320.21457818337
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "eR": 4
+    },
+    {
+      "id": "e9000139",
+      "lat": 3.4280356058090926,
+      "lng": -76.54873393684439,
+      "cell": "8866f1cec3fffff",
+      "categoryId": "4",
+      "subcategoryId": "401",
+      "pricing": {
+        "activity": {
+          "min": 88816.59980164841,
+          "acceptable": 124343.23972230776,
+          "desired": 168751.53962313198
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        2,
+        6,
+        0
+      ],
+      "eR": 3.6
+    },
+    {
+      "id": "e9000140",
+      "lat": 3.4509341945298018,
+      "lng": -76.5130550707113,
+      "cell": "8866f1c511fffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 55076.39451883733,
+          "acceptable": 77106.95232637227,
+          "desired": 104645.14958579093
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "eR": 3.733
+    },
+    {
+      "id": "e9000141",
+      "lat": 3.4664940293863418,
+      "lng": -76.50109857230261,
+      "cell": "8866f1c425fffff",
+      "categoryId": "4",
+      "subcategoryId": "402",
+      "pricing": {
+        "activity": {
+          "min": 69617.1541674994,
+          "acceptable": 97464.01583449915,
+          "desired": 132272.59291824885
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000142",
+      "lat": 3.4241546438526362,
+      "lng": -76.55563117538392,
+      "cell": "8866f1ce89fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 85567.75215314701,
+          "acceptable": 119794.8530144058,
+          "desired": 162578.72909097932
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000143",
+      "lat": 3.452181394340843,
+      "lng": -76.57970290901883,
+      "cell": "8866f1ce15fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 88589.6892263554,
+          "acceptable": 124025.56491689755,
+          "desired": 168320.40953007527
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        1
+      ],
+      "eR": 3.727
+    },
+    {
+      "id": "e9000144",
+      "lat": 3.4553195941992105,
+      "lng": -76.52713719023205,
+      "cell": "8866f1c539fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 62579.96533298865,
+          "acceptable": 87611.95146618411,
+          "desired": 118901.93413267843
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000145",
+      "lat": 3.4588467533964664,
+      "lng": -76.52017023197189,
+      "cell": "8866f1c51dfffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 50177.00840020552,
+          "acceptable": 70247.81176028773,
+          "desired": 95336.3159603905
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000146",
+      "lat": 3.4102377165839077,
+      "lng": -76.53288562926276,
+      "cell": "8866f1ce99fffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 47472.160074394196,
+          "acceptable": 66461.02410415187,
+          "desired": 90197.10414134897
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        7
+      ],
+      "eR": 4.2
+    },
+    {
+      "id": "e9000147",
+      "lat": 3.499907263068855,
+      "lng": -76.53194515486061,
+      "cell": "8866f1c54dfffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 76936.600797344,
+          "acceptable": 107711.2411162816,
+          "desired": 146179.5415149536
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "eR": 3.733
+    },
+    {
+      "id": "e9000148",
+      "lat": 3.397742951436341,
+      "lng": -76.57183667997643,
+      "cell": "8866f1cea3fffff",
+      "categoryId": "4",
+      "subcategoryId": "401",
+      "pricing": {
+        "activity": {
+          "min": 86733.96305879578,
+          "acceptable": 121427.54828231408,
+          "desired": 164794.52981171198
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        3,
+        1,
+        0
+      ],
+      "eR": 3.364
+    },
+    {
+      "id": "e9000149",
+      "lat": 3.4274060442470016,
+      "lng": -76.50846639267914,
+      "cell": "8866f1c5e3fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 72118.79400769249,
+          "acceptable": 100966.31161076948,
+          "desired": 137025.70861461572
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000150",
+      "lat": 3.3942989137846977,
+      "lng": -76.51093804107792,
+      "cell": "8866f11b49fffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 51927.1291885525,
+          "acceptable": 72697.9808639735,
+          "desired": 98661.54545824975
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        6
+      ],
+      "eR": 4.133
+    },
+    {
+      "id": "e9000151",
+      "lat": 3.487111696506292,
+      "lng": -76.50246975040808,
+      "cell": "8866f1c559fffff",
+      "categoryId": "6",
+      "subcategoryId": "602",
+      "pricing": {
+        "activity": {
+          "min": 78690.46083418652,
+          "acceptable": 110166.64516786113,
+          "desired": 149511.8755849544
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "eR": 3.867
+    },
+    {
+      "id": "e9000152",
+      "lat": 3.443435373500362,
+      "lng": -76.56448660464771,
+      "cell": "8866f1ce13fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 47298.305188305676,
+          "acceptable": 66217.62726362795,
+          "desired": 89866.77985778078
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        7,
+        1
+      ],
+      "eR": 3.8
+    },
+    {
+      "id": "e9000153",
+      "lat": 3.449362510208413,
+      "lng": -76.5758547642529,
+      "cell": "8866f1ce11fffff",
+      "categoryId": "1",
+      "subcategoryId": "101",
+      "pricing": {
+        "activity": {
+          "min": 58181.86219315976,
+          "acceptable": 81454.60707042366,
+          "desired": 110545.53816700354
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        1,
+        7,
+        0
+      ],
+      "eR": 3.667
+    },
+    {
+      "id": "e9000154",
+      "lat": 3.4346074459593745,
+      "lng": -76.52656288784742,
+      "cell": "8866f1c533fffff",
+      "categoryId": "4",
+      "subcategoryId": "402",
+      "pricing": {
+        "activity": {
+          "min": 49634.411020670086,
+          "acceptable": 69488.17542893812,
+          "desired": 94305.38093927316
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "eR": 4
+    },
+    {
+      "id": "e9000155",
+      "lat": 3.465911358453706,
+      "lng": -76.5533806562312,
+      "cell": "8866f1c52dfffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 40630.913593340665,
+          "acceptable": 56883.27903067693,
+          "desired": 77198.73582734726
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000156",
+      "lat": 3.393965056630224,
+      "lng": -76.56627945110016,
+      "cell": "8866f1ceb5fffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 50739.056777674705,
+          "acceptable": 71034.67948874459,
+          "desired": 96404.20787758194
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000157",
+      "lat": 3.5024586792461574,
+      "lng": -76.54551649687625,
+      "cell": "8866f1c091fffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 55453.84991914034,
+          "acceptable": 77635.38988679647,
+          "desired": 105362.31484636664
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000158",
+      "lat": 3.423619312679768,
+      "lng": -76.57388071250915,
+      "cell": "8866f1cee1fffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 62233.55771275237,
+          "acceptable": 87126.98079785332,
+          "desired": 118243.7596542295
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        1,
+        7,
+        0
+      ],
+      "eR": 3.667
+    },
+    {
+      "id": "e9000159",
+      "lat": 3.478758410996199,
+      "lng": -76.56858994637429,
+      "cell": "8866f1ce59fffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 75085.97706677392,
+          "acceptable": 105120.36789348349,
+          "desired": 142663.35642687045
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        1,
+        7,
+        0
+      ],
+      "eR": 3.667
+    },
+    {
+      "id": "e9000160",
+      "lat": 3.4654501604925843,
+      "lng": -76.48991388579644,
+      "cell": "8866f1c421fffff",
+      "categoryId": "4",
+      "subcategoryId": "402",
+      "pricing": {
+        "activity": {
+          "min": 73482.62752406299,
+          "acceptable": 102875.67853368819,
+          "desired": 139616.99229571968
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        7
+      ],
+      "eR": 4.2
+    },
+    {
+      "id": "e9000161",
+      "lat": 3.4583904586251824,
+      "lng": -76.53827895575016,
+      "cell": "8866f1c507fffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 56669.07863691449,
+          "acceptable": 79336.71009168029,
+          "desired": 107671.24941013753
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        2
+      ],
+      "eR": 3.833
+    },
+    {
+      "id": "e9000162",
+      "lat": 3.4788703320905565,
+      "lng": -76.56311240277067,
+      "cell": "8866f1ce59fffff",
+      "categoryId": "4",
+      "subcategoryId": "401",
+      "pricing": {
+        "activity": {
+          "min": 69191.98874151334,
+          "acceptable": 96868.78423811868,
+          "desired": 131464.77860887535
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        5
+      ],
+      "eR": 4.077
+    },
+    {
+      "id": "e9000163",
+      "lat": 3.47683392368108,
+      "lng": -76.54608213234506,
+      "cell": "8866f1c563fffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 66505.39288297296,
+          "acceptable": 93107.55003616214,
+          "desired": 126360.24647764862
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      "eR": 3.8
+    },
+    {
+      "id": "e9000164",
+      "lat": 3.4422318103242664,
+      "lng": -76.49538850892148,
+      "cell": "8866f1c5c1fffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 51293.36809972301,
+          "acceptable": 71810.71533961222,
+          "desired": 97457.39938947372
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "eR": 3.733
+    },
+    {
+      "id": "e9000165",
+      "lat": 3.4005459911454468,
+      "lng": -76.52813711250015,
+      "cell": "8866f1ce9bfffff",
+      "categoryId": "1",
+      "subcategoryId": "101",
+      "pricing": {
+        "activity": {
+          "min": 65986.81995877996,
+          "acceptable": 92381.54794229195,
+          "desired": 125374.95792168193
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        7
+      ],
+      "eR": 4.2
+    },
+    {
+      "id": "e9000166",
+      "lat": 3.402396414008364,
+      "lng": -76.53312964630126,
+      "cell": "8866f1ce91fffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 68840.49516869709,
+          "acceptable": 96376.69323617592,
+          "desired": 130796.94082052447
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000167",
+      "lat": 3.42791676252,
+      "lng": -76.52273255895636,
+      "cell": "8866f1c5e5fffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 84617.93903028592,
+          "acceptable": 118465.11464240028,
+          "desired": 160774.08415754326
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        6
+      ],
+      "eR": 4.143
+    },
+    {
+      "id": "e9000168",
+      "lat": 3.4134047529272733,
+      "lng": -76.4939627093058,
+      "cell": "8866f1c583fffff",
+      "categoryId": "1",
+      "subcategoryId": "103",
+      "pricing": {
+        "activity": {
+          "min": 57661.6758806631,
+          "acceptable": 80726.34623292834,
+          "desired": 109557.18417325988
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000169",
+      "lat": 3.4962276276372375,
+      "lng": -76.51031510814838,
+      "cell": "8866f1c731fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 65297.81857738271,
+          "acceptable": 91416.9460083358,
+          "desired": 124065.85529702716
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "eR": 3.467
+    },
+    {
+      "id": "e9000170",
+      "lat": 3.414867545737326,
+      "lng": -76.53888596278429,
+      "cell": "8866f1ced7fffff",
+      "categoryId": "6",
+      "subcategoryId": "602",
+      "pricing": {
+        "activity": {
+          "min": 69346.46665817127,
+          "acceptable": 97085.05332143977,
+          "desired": 131758.2866505254
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000171",
+      "lat": 3.4449803421538325,
+      "lng": -76.47245424547977,
+      "cell": "8866f1c437fffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 81451.85492234305,
+          "acceptable": 114032.59689128026,
+          "desired": 154758.5243524518
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        2
+      ],
+      "eR": 3.833
+    },
+    {
+      "id": "e9000172",
+      "lat": 3.4171231864284723,
+      "lng": -76.48594066188484,
+      "cell": "8866f1c58bfffff",
+      "categoryId": "4",
+      "subcategoryId": "402",
+      "pricing": {
+        "activity": {
+          "min": 83697.34436040744,
+          "acceptable": 117176.2821045704,
+          "desired": 159024.95428477414
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000173",
+      "lat": 3.433492750039697,
+      "lng": -76.48082074517198,
+      "cell": "8866f1c5ddfffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 68491.10385868698,
+          "acceptable": 95887.54540216178,
+          "desired": 130133.09733150527
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000174",
+      "lat": 3.5027662411130964,
+      "lng": -76.5045965246465,
+      "cell": "8866f1c731fffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 58561.60759925842,
+          "acceptable": 81986.25063896179,
+          "desired": 111267.054438591
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "eR": 3.733
+    },
+    {
+      "id": "e9000175",
+      "lat": 3.505425499471277,
+      "lng": -76.52286759186349,
+      "cell": "8866f1c723fffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 67184.61342155933,
+          "acceptable": 94058.45879018307,
+          "desired": 127650.76550096273
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        3,
+        5,
+        0
+      ],
+      "eR": 3.533
+    },
+    {
+      "id": "e9000176",
+      "lat": 3.4991907592102884,
+      "lng": -76.56545380474813,
+      "cell": "8866f1c0b9fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 72889.06855741516,
+          "acceptable": 102044.69598038122,
+          "desired": 138489.2302590888
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000177",
+      "lat": 3.3937276633348317,
+      "lng": -76.55805927376076,
+      "cell": "8866f1ceb1fffff",
+      "categoryId": "1",
+      "subcategoryId": "103",
+      "pricing": {
+        "activity": {
+          "min": 44085.59358911589,
+          "acceptable": 61719.831024762236,
+          "desired": 83762.62781932019
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "eR": 3.733
+    },
+    {
+      "id": "e9000178",
+      "lat": 3.4126928772203624,
+      "lng": -76.48759434968977,
+      "cell": "8866f1c583fffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 65222.28619782254,
+          "acceptable": 91311.20067695156,
+          "desired": 123922.34377586283
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        3,
+        5,
+        0
+      ],
+      "eR": 3.533
+    },
+    {
+      "id": "e9000179",
+      "lat": 3.415452001680061,
+      "lng": -76.51560888028517,
+      "cell": "8866f1c5a9fffff",
+      "categoryId": "6",
+      "subcategoryId": "602",
+      "pricing": {
+        "activity": {
+          "min": 60473.970111925155,
+          "acceptable": 84663.55815669522,
+          "desired": 114900.5432126578
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        7,
+        1
+      ],
+      "eR": 3.8
+    },
+    {
+      "id": "e9000180",
+      "lat": 3.509431430602819,
+      "lng": -76.59097987144999,
+      "cell": "8866f1c0a1fffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 65279.629160650074,
+          "acceptable": 91391.4808249101,
+          "desired": 124031.29540523514
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000181",
+      "lat": 3.4421319826398045,
+      "lng": -76.52310724553466,
+      "cell": "8866f1c53bfffff",
+      "categoryId": "6",
+      "subcategoryId": "602",
+      "pricing": {
+        "activity": {
+          "min": 70630.31350029632,
+          "acceptable": 98882.43890041485,
+          "desired": 134197.59565056302
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000182",
+      "lat": 3.394378857331723,
+      "lng": -76.53475274552405,
+      "cell": "8866f1ce93fffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 66174.20895257965,
+          "acceptable": 92643.8925336115,
+          "desired": 125730.99700990133
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000183",
+      "lat": 3.4017417312398552,
+      "lng": -76.49810421657561,
+      "cell": "8866f1c5bdfffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 81625.14434428886,
+          "acceptable": 114275.2020820044,
+          "desired": 155087.77425414883
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000184",
+      "lat": 3.430759984122962,
+      "lng": -76.5632181314826,
+      "cell": "8866f1ceebfffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 66416.30467260256,
+          "acceptable": 92982.82654164359,
+          "desired": 126190.97887794487
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "eR": 3.733
+    },
+    {
+      "id": "e9000185",
+      "lat": 3.42984837484397,
+      "lng": -76.580862406658,
+      "cell": "8866f1cee5fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 53044.60235405713,
+          "acceptable": 74262.44329567999,
+          "desired": 100784.74447270855
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "eR": 3.625
+    },
+    {
+      "id": "e9000186",
+      "lat": 3.4189154192138465,
+      "lng": -76.48202000795676,
+      "cell": "8866f1c5d7fffff",
+      "categoryId": "1",
+      "subcategoryId": "101",
+      "pricing": {
+        "activity": {
+          "min": 40085.833691991866,
+          "acceptable": 56120.16716878861,
+          "desired": 76163.08401478454
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "eR": 3.625
+    },
+    {
+      "id": "e9000187",
+      "lat": 3.5004708440493792,
+      "lng": -76.52008487120084,
+      "cell": "8866f1c735fffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 80406.89556859434,
+          "acceptable": 112569.65379603207,
+          "desired": 152773.10158032924
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000188",
+      "lat": 3.4119747173212467,
+      "lng": -76.48414244880713,
+      "cell": "8866f1c59dfffff",
+      "categoryId": "1",
+      "subcategoryId": "103",
+      "pricing": {
+        "activity": {
+          "min": 87296.7087989673,
+          "acceptable": 122215.39231855421,
+          "desired": 165863.74671803787
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000189",
+      "lat": 3.403011775844172,
+      "lng": -76.56781156685948,
+      "cell": "8866f1ceabfffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 82919.4383090362,
+          "acceptable": 116087.21363265066,
+          "desired": 157546.93278716877
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000190",
+      "lat": 3.501607478930056,
+      "lng": -76.47655448173917,
+      "cell": "8866f1c44dfffff",
+      "categoryId": "1",
+      "subcategoryId": "102",
+      "pricing": {
+        "activity": {
+          "min": 63953.5704953596,
+          "acceptable": 89534.99869350344,
+          "desired": 121511.78394118324
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000191",
+      "lat": 3.46293305083029,
+      "lng": -76.49865353289805,
+      "cell": "8866f1c425fffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 61537.71296143532,
+          "acceptable": 86152.79814600945,
+          "desired": 116921.6546267271
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000192",
+      "lat": 3.4331471357572823,
+      "lng": -76.58444422002695,
+      "cell": "8866f1ce33fffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 51767.02288212255,
+          "acceptable": 72473.83203497157,
+          "desired": 98357.34347603284
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "eR": 3.9
+    },
+    {
+      "id": "e9000193",
+      "lat": 3.416036967885122,
+      "lng": -76.50059833585098,
+      "cell": "8866f1c585fffff",
+      "categoryId": "4",
+      "subcategoryId": "403",
+      "pricing": {
+        "activity": {
+          "min": 48844.16113840416,
+          "acceptable": 68381.82559376583,
+          "desired": 92803.9061629679
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000194",
+      "lat": 3.3955273001905533,
+      "lng": -76.53856746658496,
+      "cell": "8866f1ce97fffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 65275.997805874795,
+          "acceptable": 91386.39692822471,
+          "desired": 124024.39583116211
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000195",
+      "lat": 3.4599010985236616,
+      "lng": -76.57824944739043,
+      "cell": "8866f1ce1dfffff",
+      "categoryId": "4",
+      "subcategoryId": "403",
+      "pricing": {
+        "activity": {
+          "min": 71677.98459762707,
+          "acceptable": 100349.1784366779,
+          "desired": 136188.17073549144
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        1,
+        5,
+        0
+      ],
+      "eR": 3.615
+    },
+    {
+      "id": "e9000196",
+      "lat": 3.415288525930047,
+      "lng": -76.54682581133954,
+      "cell": "8866f1ce8bfffff",
+      "categoryId": "1",
+      "subcategoryId": "103",
+      "pricing": {
+        "activity": {
+          "min": 71041.85445699841,
+          "acceptable": 99458.59623979777,
+          "desired": 134979.52346829697
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000197",
+      "lat": 3.4603215765565634,
+      "lng": -76.51603751544654,
+      "cell": "8866f1c51dfffff",
+      "categoryId": "1",
+      "subcategoryId": "102",
+      "pricing": {
+        "activity": {
+          "min": 80823.9941811189,
+          "acceptable": 113153.59185356647,
+          "desired": 153565.58894412592
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        7,
+        1
+      ],
+      "eR": 3.8
+    },
+    {
+      "id": "e9000198",
+      "lat": 3.4192190917938947,
+      "lng": -76.47776417094096,
+      "cell": "8866f1c5d7fffff",
+      "categoryId": "4",
+      "subcategoryId": "403",
+      "pricing": {
+        "activity": {
+          "min": 71972.85112692043,
+          "acceptable": 100761.9915776886,
+          "desired": 136748.41714114882
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "eR": 3.467
+    },
+    {
+      "id": "e9000199",
+      "lat": 3.3975028456453233,
+      "lng": -76.53000554424524,
+      "cell": "8866f1ce9bfffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 73163.34831761196,
+          "acceptable": 102428.68764465675,
+          "desired": 139010.36180346273
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "eR": 3.5
+    },
+    {
+      "id": "e9000200",
+      "lat": 3.417875213295594,
+      "lng": -76.56372219181434,
+      "cell": "8866f1ce85fffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 55894.333994947374,
+          "acceptable": 78252.06759292632,
+          "desired": 106199.23459040001
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        7,
+        1
+      ],
+      "eR": 3.8
+    },
+    {
+      "id": "e9000201",
+      "lat": 3.4317319710165264,
+      "lng": -76.48571111525223,
+      "cell": "8866f1c5c3fffff",
+      "categoryId": "1",
+      "subcategoryId": "103",
+      "pricing": {
+        "activity": {
+          "min": 42540.98222358152,
+          "acceptable": 59557.375113014125,
+          "desired": 80827.8662248049
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "eR": 3.733
+    },
+    {
+      "id": "e9000202",
+      "lat": 3.4949158728666605,
+      "lng": -76.53611616282537,
+      "cell": "8866f1c54dfffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 57164.221778512,
+          "acceptable": 80029.9104899168,
+          "desired": 108612.0213791728
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000203",
+      "lat": 3.4276918478947134,
+      "lng": -76.56628079376928,
+      "cell": "8866f1ceebfffff",
+      "categoryId": "6",
+      "subcategoryId": "602",
+      "pricing": {
+        "activity": {
+          "min": 75791.98805382475,
+          "acceptable": 106108.78327535465,
+          "desired": 144004.77730226703
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000204",
+      "lat": 3.452735452948511,
+      "lng": -76.50894152457639,
+      "cell": "8866f1c511fffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 78314.74201288074,
+          "acceptable": 109640.63881803304,
+          "desired": 148798.0098244734
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        3,
+        5,
+        0
+      ],
+      "eR": 3.533
+    },
+    {
+      "id": "e9000205",
+      "lat": 3.4667946702320127,
+      "lng": -76.50418149851076,
+      "cell": "8866f1c553fffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 88967.34431385994,
+          "acceptable": 124554.2820394039,
+          "desired": 169037.95419633389
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "eR": 3.867
+    },
+    {
+      "id": "e9000206",
+      "lat": 3.4727158738937227,
+      "lng": -76.53422770635038,
+      "cell": "8866f1c50dfffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 58254.020262975246,
+          "acceptable": 81555.62836816534,
+          "desired": 110682.63849965297
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        1,
+        7,
+        0
+      ],
+      "eR": 3.667
+    },
+    {
+      "id": "e9000207",
+      "lat": 3.471242839403823,
+      "lng": -76.5591791326534,
+      "cell": "8866f1ce5bfffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 71763.91061861068,
+          "acceptable": 100469.47486605495,
+          "desired": 136351.4301753603
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "eR": 3.867
+    },
+    {
+      "id": "e9000208",
+      "lat": 3.4947924366019665,
+      "lng": -76.56504334233514,
+      "cell": "8866f1c0b1fffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 56001.301258802414,
+          "acceptable": 78401.82176232338,
+          "desired": 106402.47239172459
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "eR": 3.733
+    },
+    {
+      "id": "e9000209",
+      "lat": 3.5015040856119244,
+      "lng": -76.4774058424849,
+      "cell": "8866f1c713fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 71283.91053760424,
+          "acceptable": 99797.47475264594,
+          "desired": 135439.43002144806
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        4,
+        3
+      ],
+      "eR": 3.929
+    },
+    {
+      "id": "e9000210",
+      "lat": 3.449256737267971,
+      "lng": -76.55312246279604,
+      "cell": "8866f1c527fffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 40714.08519288525,
+          "acceptable": 56999.71927003935,
+          "desired": 77356.76186648197
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000211",
+      "lat": 3.502008991985023,
+      "lng": -76.57694535247795,
+      "cell": "8866f1c0bdfffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 80370.50082115456,
+          "acceptable": 112518.70114961639,
+          "desired": 152703.95156019367
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000212",
+      "lat": 3.510752523064986,
+      "lng": -76.48510807202011,
+      "cell": "8866f1c711fffff",
+      "categoryId": "4",
+      "subcategoryId": "402",
+      "pricing": {
+        "activity": {
+          "min": 56161.53627401218,
+          "acceptable": 78626.15078361705,
+          "desired": 106706.91892062314
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000213",
+      "lat": 3.4185274327903987,
+      "lng": -76.48331085158325,
+      "cell": "8866f1c58bfffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 45823.488999158144,
+          "acceptable": 64152.884598821394,
+          "desired": 87064.62909840047
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000214",
+      "lat": 3.4253708088848738,
+      "lng": -76.55682606683857,
+      "cell": "8866f1cec7fffff",
+      "categoryId": "1",
+      "subcategoryId": "101",
+      "pricing": {
+        "activity": {
+          "min": 84203.31097207963,
+          "acceptable": 117884.63536091147,
+          "desired": 159986.2908469513
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "eR": 3.867
+    },
+    {
+      "id": "e9000215",
+      "lat": 3.4409483396433296,
+      "lng": -76.51803554700501,
+      "cell": "8866f1c5edfffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 70782.804870978,
+          "acceptable": 99095.9268193692,
+          "desired": 134487.3292548582
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000216",
+      "lat": 3.4457975229792295,
+      "lng": -76.5013696117308,
+      "cell": "8866f1c5cdfffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 47814.97196294367,
+          "acceptable": 66940.96074812114,
+          "desired": 90848.44672959298
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000217",
+      "lat": 3.4210776078592984,
+      "lng": -76.53305641397647,
+      "cell": "8866f1ced1fffff",
+      "categoryId": "4",
+      "subcategoryId": "401",
+      "pricing": {
+        "activity": {
+          "min": 83349.88031769171,
+          "acceptable": 116689.83244476838,
+          "desired": 158364.77260361426
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000218",
+      "lat": 3.4729184552732857,
+      "lng": -76.57936140119843,
+      "cell": "8866f1ce55fffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 77838.00853416324,
+          "acceptable": 108973.21194782853,
+          "desired": 147892.21621491015
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000219",
+      "lat": 3.4494463290445507,
+      "lng": -76.52463115233742,
+      "cell": "8866f1c53bfffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 77723.56956033036,
+          "acceptable": 108812.9973844625,
+          "desired": 147674.7821646277
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000220",
+      "lat": 3.4411364195480942,
+      "lng": -76.50900334843247,
+      "cell": "8866f1c5e9fffff",
+      "categoryId": "4",
+      "subcategoryId": "401",
+      "pricing": {
+        "activity": {
+          "min": 85987.80758678913,
+          "acceptable": 120382.93062150477,
+          "desired": 163376.83441489935
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        2,
+        6,
+        0
+      ],
+      "eR": 3.6
+    },
+    {
+      "id": "e9000221",
+      "lat": 3.4556541400108487,
+      "lng": -76.48980278336256,
+      "cell": "8866f1c423fffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 89443.72889585793,
+          "acceptable": 125221.22045420109,
+          "desired": 169943.08490213007
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        3,
+        5,
+        0
+      ],
+      "eR": 3.533
+    },
+    {
+      "id": "e9000222",
+      "lat": 3.423864457391575,
+      "lng": -76.48511082832515,
+      "cell": "8866f1c5d5fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 87552.36031487584,
+          "acceptable": 122573.30444082616,
+          "desired": 166349.4845982641
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        6
+      ],
+      "eR": 4.133
+    },
+    {
+      "id": "e9000223",
+      "lat": 3.4837043966524304,
+      "lng": -76.52771223354898,
+      "cell": "8866f1c543fffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 66624.12502104416,
+          "acceptable": 93273.77502946183,
+          "desired": 126585.83753998391
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        2,
+        6,
+        0
+      ],
+      "eR": 3.6
+    },
+    {
+      "id": "e9000224",
+      "lat": 3.452310634179413,
+      "lng": -76.5187624039948,
+      "cell": "8866f1c515fffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 56006.71473424882,
+          "acceptable": 78409.40062794834,
+          "desired": 106412.75799507275
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "eR": 4
+    },
+    {
+      "id": "e9000225",
+      "lat": 3.401201164562628,
+      "lng": -76.4922749190852,
+      "cell": "8866f1c5b9fffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 81382.91515409946,
+          "acceptable": 113936.08121573925,
+          "desired": 154627.53879278898
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000226",
+      "lat": 3.3985398778956384,
+      "lng": -76.52554986092075,
+      "cell": "8866f1ce9bfffff",
+      "categoryId": "5",
+      "subcategoryId": "502",
+      "pricing": {
+        "activity": {
+          "min": 74223.74735819176,
+          "acceptable": 103913.24630146846,
+          "desired": 141025.11998056434
+        }
+      },
+      "coverageRadiusKm": 8,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        7
+      ],
+      "eR": 4.2
+    },
+    {
+      "id": "e9000227",
+      "lat": 3.501602408828586,
+      "lng": -76.57375548508763,
+      "cell": "8866f1c0bdfffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 60015.43138176203,
+          "acceptable": 84021.60393446684,
+          "desired": 114029.31962534785
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "eR": 3.467
+    },
+    {
+      "id": "e9000228",
+      "lat": 3.408310663260892,
+      "lng": -76.56502765325642,
+      "cell": "8866f1ceabfffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 74378.9056991227,
+          "acceptable": 104130.46797877178,
+          "desired": 141319.92082833312
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000229",
+      "lat": 3.3925214960690586,
+      "lng": -76.58081458597258,
+      "cell": "8866f1cccdfffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 57198.853159788996,
+          "acceptable": 80078.3944237046,
+          "desired": 108677.82100359909
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        7,
+        1
+      ],
+      "eR": 3.8
+    },
+    {
+      "id": "e9000230",
+      "lat": 3.5083734059877694,
+      "lng": -76.51359802665003,
+      "cell": "8866f1c73dfffff",
+      "categoryId": "2",
+      "subcategoryId": "203",
+      "pricing": {
+        "activity": {
+          "min": 51420.071532484144,
+          "acceptable": 71988.1001454778,
+          "desired": 97698.13591171987
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000231",
+      "lat": 3.4084807405978443,
+      "lng": -76.58594207076169,
+      "cell": "8866f1cea5fffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 62474.10725103691,
+          "acceptable": 87463.75015145168,
+          "desired": 118700.80377697013
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        7
+      ],
+      "eR": 4.2
+    },
+    {
+      "id": "e9000232",
+      "lat": 3.479915553823486,
+      "lng": -76.57729968136921,
+      "cell": "8866f1ce5dfffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 43809.725237078965,
+          "acceptable": 61333.61533191054,
+          "desired": 83238.47795045003
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      "eR": 4.067
+    },
+    {
+      "id": "e9000233",
+      "lat": 3.4240958229251204,
+      "lng": -76.52595390531047,
+      "cell": "8866f1cedbfffff",
+      "categoryId": "1",
+      "subcategoryId": "103",
+      "pricing": {
+        "activity": {
+          "min": 42951.93017227575,
+          "acceptable": 60132.702241186045,
+          "desired": 81608.66732732393
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000234",
+      "lat": 3.406130201870948,
+      "lng": -76.48070229759253,
+      "cell": "8866f1c591fffff",
+      "categoryId": "4",
+      "subcategoryId": "402",
+      "pricing": {
+        "activity": {
+          "min": 76210.45926120132,
+          "acceptable": 106694.64296568185,
+          "desired": 144799.8725962825
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000235",
+      "lat": 3.4451165187716484,
+      "lng": -76.58847233822382,
+      "cell": "8866f1ce3bfffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 71629.8543708399,
+          "acceptable": 100281.79611917585,
+          "desired": 136096.7233045958
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        1,
+        7,
+        0
+      ],
+      "eR": 3.667
+    },
+    {
+      "id": "e9000236",
+      "lat": 3.488126481313631,
+      "lng": -76.51353523345477,
+      "cell": "8866f1c55dfffff",
+      "categoryId": "1",
+      "subcategoryId": "103",
+      "pricing": {
+        "activity": {
+          "min": 57821.95660052821,
+          "acceptable": 80950.7392407395,
+          "desired": 109861.7175410036
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        5,
+        3
+      ],
+      "eR": 3.933
+    },
+    {
+      "id": "e9000237",
+      "lat": 3.424440135330334,
+      "lng": -76.53387420081347,
+      "cell": "8866f1ced1fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 71890.31529473141,
+          "acceptable": 100646.44141262397,
+          "desired": 136591.59905998968
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        6
+      ],
+      "eR": 4.133
+    },
+    {
+      "id": "e9000238",
+      "lat": 3.3975640886913987,
+      "lng": -76.51833276146836,
+      "cell": "8866f11b49fffff",
+      "categoryId": "3",
+      "subcategoryId": "302",
+      "pricing": {
+        "activity": {
+          "min": 64480.35792913288,
+          "acceptable": 90272.50110078603,
+          "desired": 122512.68006535247
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        7
+      ],
+      "eR": 4.2
+    },
+    {
+      "id": "e9000239",
+      "lat": 3.4406061278268694,
+      "lng": -76.47302613231167,
+      "cell": "8866f1c437fffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 51101.33612528443,
+          "acceptable": 71541.8705753982,
+          "desired": 97092.53863804042
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        1,
+        3,
+        0
+      ],
+      "eR": 3.545
+    },
+    {
+      "id": "e9000240",
+      "lat": 3.472594473481551,
+      "lng": -76.4801328566838,
+      "cell": "8866f1c405fffff",
+      "categoryId": "4",
+      "subcategoryId": "403",
+      "pricing": {
+        "activity": {
+          "min": 69338.90230488032,
+          "acceptable": 97074.46322683245,
+          "desired": 131743.9143792726
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000241",
+      "lat": 3.471826278146729,
+      "lng": -76.49044856932758,
+      "cell": "8866f1c429fffff",
+      "categoryId": "2",
+      "subcategoryId": "201",
+      "pricing": {
+        "activity": {
+          "min": 67823.58448021114,
+          "acceptable": 94953.0182722956,
+          "desired": 128864.81051240116
+        }
+      },
+      "coverageRadiusKm": 25,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000242",
+      "lat": 3.5097515599321576,
+      "lng": -76.54410524519905,
+      "cell": "8866f1c099fffff",
+      "categoryId": "6",
+      "subcategoryId": "601",
+      "pricing": {
+        "activity": {
+          "min": 67371.46518193185,
+          "acceptable": 94320.0512547046,
+          "desired": 128005.78384567052
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        2,
+        6,
+        0
+      ],
+      "eR": 3.6
+    },
+    {
+      "id": "e9000243",
+      "lat": 3.469840920556709,
+      "lng": -76.4879097725246,
+      "cell": "8866f1c429fffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 74183.60429350287,
+          "acceptable": 103857.04601090401,
+          "desired": 140948.84815765545
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        7
+      ],
+      "eR": 4.2
+    },
+    {
+      "id": "e9000244",
+      "lat": 3.4257546634491534,
+      "lng": -76.53111919603124,
+      "cell": "8866f1ced1fffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 72779.49461480603,
+          "acceptable": 101891.29246072844,
+          "desired": 138281.03976813145
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eR": 3.429
+    },
+    {
+      "id": "e9000245",
+      "lat": 3.4023788250315934,
+      "lng": -76.5489809473399,
+      "cell": "8866f1ce95fffff",
+      "categoryId": "5",
+      "subcategoryId": "501",
+      "pricing": {
+        "activity": {
+          "min": 45440.783814992756,
+          "acceptable": 63617.09734098985,
+          "desired": 86337.48924848624
+        }
+      },
+      "coverageRadiusKm": 12,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "eR": 4.267
+    },
+    {
+      "id": "e9000246",
+      "lat": 3.4073217680849135,
+      "lng": -76.58300549613125,
+      "cell": "8866f1cea5fffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 81840.84109729156,
+          "acceptable": 114577.17753620818,
+          "desired": 155497.59808485396
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        6,
+        1
+      ],
+      "eR": 3.786
+    },
+    {
+      "id": "e9000247",
+      "lat": 3.407969101824239,
+      "lng": -76.57246583264134,
+      "cell": "8866f1ceabfffff",
+      "categoryId": "6",
+      "subcategoryId": "603",
+      "pricing": {
+        "activity": {
+          "min": 61030.784386675805,
+          "acceptable": 85443.09814134613,
+          "desired": 115958.49033468403
+        }
+      },
+      "coverageRadiusKm": 18,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        1,
+        7
+      ],
+      "eR": 4.2
+    },
+    {
+      "id": "e9000248",
+      "lat": 3.4205717182610185,
+      "lng": -76.58414973096735,
+      "cell": "8866f1cc5bfffff",
+      "categoryId": "2",
+      "subcategoryId": "202",
+      "pricing": {
+        "activity": {
+          "min": 48247.74735374376,
+          "acceptable": 67546.84629524127,
+          "desired": 91670.71997211315
+        }
+      },
+      "coverageRadiusKm": 5,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        6
+      ],
+      "eR": 4.133
+    },
+    {
+      "id": "e9000249",
+      "lat": 3.4010402129109947,
+      "lng": -76.5833865116611,
+      "cell": "8866f1cea7fffff",
+      "categoryId": "3",
+      "subcategoryId": "301",
+      "pricing": {
+        "activity": {
+          "min": 68904.79734633118,
+          "acceptable": 96466.71628486365,
+          "desired": 130919.11495802924
+        }
+      },
+      "coverageRadiusKm": 35,
+      "ratingCounts": [
+        0,
+        0,
+        0,
+        2,
+        6
+      ],
+      "eR": 4.133
+    }
+  ]
+}
