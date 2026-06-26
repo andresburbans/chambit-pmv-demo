@@ -116,12 +116,13 @@ Trabajo de grado en Ingeniería Topográfica, *[universidad]*, 2026. Autor: *[no
 
 ```bibtex
 @thesis{chambit_hive1_2026,
-  author = {Apellido, Nombre},
-  title  = {Título de la tesis},
-  school = {Universidad},
+  author = {Burbano Suarez, Andrés Felipe and Quenán Ortiz, Liliana Marisol},
+  title  = {{Desarrollo de un Sistema de Información Geográfico para conectar usuarios con prestadores de servicios domiciliarios y profesionales en Cali}},
+  school = {Universidad del Valle},
   year   = {2026},
-  type   = {Trabajo de grado de Ingeniería Topográfica},
-  note   = {Prototipo: https://chambit.co, código: https://github.com/andresburbans/chambit-pmv-demo}
+  type   = {Trabajo de grado en modalidad investigación e innovación (Ingeniería Topográfica)},
+  url    = {https://chambit.co},
+  note   = {Código fuente: \url{https://github.com/andresburbans/chambit-pmv-demo}}
 }
 ```
 
